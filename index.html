@@ -834,7 +834,7 @@ function renderCellCards() {
 
   // Sort ascending by % capacity used (least used first)
   const sortedCells = [...CELLS]
-    .filter(c => c.celula !== 'SPEI')
+    .filter(c => c.celula !== 'SPEI' && c.celula !== 'Regulatorios')
     .sort((a, b) => {
       const capA = (CAPACITY[a.celula] || {cap:0}).cap;
       const capB = (CAPACITY[b.celula] || {cap:0}).cap;
@@ -1202,7 +1202,7 @@ function renderRoles() {
   if (elT) elT.textContent = totalPersonas;
   const ROL_DISP = {'Líder Técnico':'Líder Técnico (LT)','Arquitecto':'Arquitecto','Scrum Master':'Scrum Master','Desarrollador':'Desarrollador (DEV)','QA':'QA','Soporte':'Soporte'};
   const fmtMx = n => '$' + Math.round(n).toLocaleString('es-MX');
-  document.getElementById('rolesGrid').innerHTML = Object.entries(ROLES).map(([name, info]) => {
+  document.getElementById('rolesGrid').innerHTML = Object.entries(ROLES).filter(([name]) => name !== 'Regulatorios').map(([name, info]) => {
     const cap = CAPACITY[name] ? CAPACITY[name].cap : 0;
     const costoMens = COSTS_MENS[name] || 0;
     const rolesHtml = info.roles.map(r =>
