@@ -798,6 +798,147 @@ tr:hover td{background:#FAFBFC}
 .coh-item{font-weight:400}
 .coh-item b{font-weight:600}
 .i3c-empty{min-height:16px}
+/* ══ v17 · Portafolio 2026–2027 (fuente: Detalle de Iniciativas) — tipografía Roboto en área intervenida ══ */
+.ni2-total{background:var(--navy);color:#fff;border-radius:12px;padding:20px 14px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;cursor:pointer;transition:.12s;font-family:Roboto,Inter,sans-serif;text-align:center}
+.ni2-total:hover{filter:brightness(1.08)}
+.ni2-total b{font-family:Merriweather,serif;font-size:40px;line-height:1}
+.ni2-total span{font-size:12px;font-weight:700;opacity:.9}
+.ni2-comp-grid{display:grid;grid-template-columns:170px 1fr;gap:14px;margin-top:12px;font-family:Roboto,Inter,sans-serif}
+@media(max-width:720px){.ni2-comp-grid{grid-template-columns:1fr}}
+.ni2-groups{display:flex;flex-direction:column;gap:10px}
+.ni2-group{border-radius:10px;padding:12px 14px;transition:.12s;border-top:4px solid var(--g200)}
+.ni2-group.g-presup{background:rgba(27,42,74,.07);border-top-color:var(--navy2)}
+.ni2-group.g-nuevas{background:rgba(0,120,138,.08);border-top-color:var(--teal)}
+.ni2-group-head{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:8px;cursor:pointer;border-radius:6px;transition:.12s}
+.ni2-group-head:hover{background:rgba(0,0,0,.03)}
+.ni2-group-title{font-family:Merriweather,serif;font-weight:900;font-size:15px;color:var(--navy)}
+.ni2-group-pct{font-size:10.5px;font-weight:700;color:var(--g500)}
+.ni2-chips{display:grid;grid-template-columns:repeat(auto-fit,minmax(88px,1fr));gap:7px}
+.ni2-chip{background:white;border-radius:8px;padding:8px 6px;text-align:center;cursor:pointer;transition:.12s;box-shadow:0 1px 3px rgba(27,42,74,.08)}
+.ni2-chip:hover{transform:translateY(-1px);box-shadow:0 4px 10px rgba(27,42,74,.14)}
+.ni2-chip b{display:block;font-family:Merriweather,serif;font-size:18px;color:var(--navy);line-height:1.15}
+.ni2-chip span{font-size:9px;font-weight:700;color:var(--g700);line-height:1.25}
+.ni2-chip.active,.ni2-group.active{outline:2px solid var(--teal);box-shadow:0 0 0 3px rgba(0,120,138,.16)}
+
+.ni2-status-sec{font-size:10px;font-weight:900;text-transform:uppercase;letter-spacing:.5px;color:var(--navy);border-bottom:2px solid var(--g200);padding-bottom:4px;margin:14px 0 6px;font-family:Roboto,Inter,sans-serif}
+.ni2-status-sec:first-of-type{margin-top:10px}
+.ni2-status-row{display:grid;grid-template-columns:150px 1fr 32px 40px 100px;gap:9px;align-items:center;padding:5px 4px;cursor:pointer;border-radius:6px;transition:.12s;font-family:Roboto,Inter,sans-serif}
+.ni2-status-row:hover{background:#F7F9FC}
+.ni2-status-row.active{background:rgba(0,120,138,.08);outline:1px solid rgba(0,120,138,.3)}
+.ni2-status-l{font-size:11.5px;font-weight:700;color:var(--navy)}
+.ni2-status-bar{height:9px;background:var(--g100);border-radius:6px;overflow:hidden}
+.ni2-status-fill{height:100%;background:var(--teal);border-radius:6px}
+.ni2-status-n{font-family:Merriweather,serif;font-size:14px;color:var(--navy);text-align:right}
+.ni2-status-p{font-size:10px;font-weight:700;color:var(--g500)}
+.ni2-status-coh{font-size:10px;font-weight:700;color:var(--g500);white-space:nowrap;text-align:right}
+.ni2-status-coh i{width:8px;height:8px;border-radius:2px;display:inline-block;margin-right:2px;vertical-align:middle}
+@media(max-width:720px){.ni2-status-row{grid-template-columns:110px 1fr 28px 36px}.ni2-status-coh{display:none}}
+
+.ni2-note{font-size:10.5px;color:var(--g500);font-weight:600;line-height:1.5;margin-top:12px;font-family:Roboto,Inter,sans-serif}
+
+.ni2-cal-legend{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:10px;font-size:10.5px;font-weight:700;color:var(--g700);font-family:Roboto,Inter,sans-serif}
+.ni2-cal-legend i{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:5px;vertical-align:middle}
+.ni2-cal-filters{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:10px;font-family:Roboto,Inter,sans-serif}
+.ni2-cal-filters select,.ni2-cal-filters input{border:1px solid var(--g200);border-radius:10px;padding:7px 10px;font-family:Roboto,Inter,sans-serif;font-weight:600;color:var(--g700);background:white;font-size:11.5px}
+.ni2-cal-filters input{min-width:200px}
+.ni2-cal-count{font-size:11px;color:var(--g500);font-weight:700;margin-right:auto}
+.ni2-cal-table-wrap{overflow-x:auto}
+.ni2-cal-row{display:grid;grid-template-columns:230px 130px 150px 78px 78px 78px repeat(12,24px);gap:4px;align-items:center;padding:6px 3px;border-bottom:1px solid var(--g100);font-size:10.5px;white-space:nowrap;font-family:Roboto,Inter,sans-serif}
+.ni2-cal-hdr{font-weight:800;color:var(--g500);text-transform:uppercase;font-size:8.5px;border-bottom:2px solid var(--g200)}
+.ni2-cal-name{white-space:normal;font-weight:700;color:var(--navy);font-size:11px;line-height:1.3}
+.ni2-cal-cell{height:15px;border-radius:3px}
+.ni2-cal-tags{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:8px}
+.ni2-cal-tag{background:var(--g100);border-radius:999px;padding:3px 9px;font-size:10px;font-weight:700;color:var(--g700);display:inline-flex;align-items:center;gap:5px;font-family:Roboto,Inter,sans-serif}
+.ni2-cal-tag i{font-style:normal;cursor:pointer;color:var(--g500)}
+.ni2-badge-2026{background:rgba(27,138,90,.12);color:var(--verde);border-radius:999px;padding:1px 7px;font-size:9px;font-weight:800}
+.ni2-badge-2027{background:rgba(73,94,126,.14);color:#495E7E;border-radius:999px;padding:1px 7px;font-size:9px;font-weight:800}
+.ni2-badge-tbd{background:rgba(180,83,9,.12);color:var(--amarillo);border-radius:999px;padding:1px 7px;font-size:9px;font-weight:800}
+.ni2-obs-note{font-size:9.5px;color:var(--g500);font-style:italic;font-family:Roboto,Inter,sans-serif;white-space:normal;grid-column:1/-1;margin-top:-2px;padding-left:2px}
+
+.ni2-obs{margin-top:8px;padding-top:7px;border-top:1px dashed var(--g200);font-family:Roboto,Inter,sans-serif}
+.ni2-obs summary{cursor:pointer;font-size:10px;font-weight:800;color:var(--teal);text-transform:uppercase;letter-spacing:.3px}
+.ni2-obs-body{font-size:11px;color:var(--g700);line-height:1.55;margin-top:6px;white-space:pre-line}
+
+/* ══ v18 · Navegación secundaria por pestañas + jerarquía de Situación actual + orden de calendario ══ */
+.ni3-tabs{display:flex;gap:8px;margin:16px 0 18px;overflow-x:auto;-webkit-overflow-scrolling:touch;padding-bottom:3px;font-family:Roboto,Inter,sans-serif}
+.ni3-tab{flex:0 0 auto;border:1px solid var(--g200);background:white;color:var(--navy);border-radius:999px;padding:9px 18px;font-weight:700;font-size:12.5px;cursor:pointer;font-family:Roboto,Inter,sans-serif;transition:.12s;white-space:nowrap}
+.ni3-tab:hover{background:#F7F9FC}
+.ni3-tab.active{background:var(--navy);color:#fff;border-color:var(--navy)}
+.ni3-tab:focus-visible{outline:3px solid var(--teal);outline-offset:2px}
+
+.ni3-ppto-header{margin-top:34px;padding-top:20px;border-top:3px solid var(--g200)}
+.ni3-ppto-header h2{font-size:22px;font-weight:900}
+
+/* Situación actual: jerarquía tipográfica exigida */
+.ni3-estado-title{font-size:20px;font-weight:900;font-family:Merriweather,serif;color:var(--navy);margin-bottom:8px}
+.ni3-origin-legend{display:flex;gap:18px;flex-wrap:wrap;align-items:center;margin:0 0 14px;font-family:Roboto,Inter,sans-serif}
+.ni3-ol-item{display:flex;align-items:center;gap:7px;font-size:12px;font-weight:700;color:var(--g700)}
+.ni3-ol-swatch{width:13px;height:13px;border-radius:3px;display:inline-block;flex:0 0 auto}
+.ni2-status-sec{display:flex;justify-content:space-between;align-items:baseline;gap:10px;border-bottom:2px solid var(--g200);padding-bottom:6px;margin:16px 0 8px;text-transform:none;font-family:Roboto,Inter,sans-serif}
+.ni2-status-sec:first-of-type{margin-top:4px}
+.ni3-group-title{font-size:16px;font-weight:800;color:var(--navy);font-family:Roboto,Inter,sans-serif}
+.ni3-group-meta{font-size:12px;font-weight:700;color:var(--g500);white-space:nowrap}
+.ni2-status-row{border-bottom:1px solid var(--g100);padding:7px 4px;border-radius:4px}
+.ni2-status-row:last-of-type{border-bottom:none}
+.ni2-status-l{font-size:13px;font-weight:500;color:var(--g700)}
+.ni2-status-n{font-size:15px;font-weight:800;color:var(--navy);font-family:Merriweather,serif}
+.ni2-status-p{font-size:12px;font-weight:700}
+.ni2-status-coh{font-size:12px;font-weight:700}
+
+/* Calendario: franjas separadas sin superposición */
+.ni3-cal-counter-row{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin:4px 0 10px}
+.ni2-cal-count{margin-right:0}
+.ni2-cal-filters{margin-bottom:14px}
+.ni2-cal-legend{margin:0 0 14px;padding:10px 0;border-top:1px solid var(--g100);border-bottom:1px solid var(--g100)}
+
+/* Clasificación de iniciativas: resumen sin tarjetas inline (se navega a Detalle) */
+.ni3-clas-row{display:grid;grid-template-columns:minmax(220px,1.4fr) 1fr 90px 30px;gap:14px;align-items:center;padding:13px 16px;background:white;border-radius:var(--radius);box-shadow:var(--shadow);margin-bottom:9px;cursor:pointer;transition:.12s;font-family:Roboto,Inter,sans-serif}
+.ni3-clas-row:hover{transform:translateY(-1px);box-shadow:0 8px 22px rgba(27,42,74,.13)}
+.ni3-clas-name{font-family:Merriweather,serif;font-size:13.5px;color:var(--navy);font-weight:700}
+.ni3-clas-bar{height:11px;background:var(--g100);border-radius:7px;overflow:hidden}
+.ni3-clas-fill{height:100%;background:var(--teal);border-radius:7px}
+.ni3-clas-n{font-family:Merriweather,serif;font-size:18px;font-weight:900;color:var(--navy);text-align:right}
+.ni3-clas-arrow{color:var(--g200);font-size:18px;text-align:center}
+@media(max-width:720px){.ni3-clas-row{grid-template-columns:1fr 60px}.ni3-clas-bar,.ni3-clas-arrow{display:none}}
+
+/* Detalle de iniciativas: barra de filtro activo */
+.ni3-filter-bar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:14px;padding:10px 14px;background:rgba(0,120,138,.07);border:1px solid rgba(0,120,138,.22);border-radius:10px;font-family:Roboto,Inter,sans-serif}
+.ni3-filter-bar b{color:var(--navy)}
+.ni3-filter-clear{border:1px solid var(--teal);background:white;color:var(--teal);border-radius:999px;padding:5px 14px;font-weight:700;font-size:11.5px;cursor:pointer;font-family:Roboto,Inter,sans-serif}
+.ni3-filter-clear:hover{background:var(--teal);color:white}
+
+/* ══ v19 · Capítulos A/B + calendario reestructurado ══ */
+.ni4-chapter{display:flex;align-items:center;gap:12px;margin:22px 0 14px;font-family:Roboto,Inter,sans-serif}
+.ni4-chapter-badge{width:34px;height:34px;border-radius:50%;background:var(--navy);color:#fff;display:flex;align-items:center;justify-content:center;font-family:Merriweather,serif;font-weight:900;font-size:16px;flex:0 0 auto}
+.ni4-chapter-title{font-size:23px;font-weight:900;font-family:Merriweather,serif;color:var(--navy)}
+.ni4-cal-row{display:grid;grid-template-columns:220px 120px 150px 84px 84px 84px repeat(12,22px) 240px;gap:5px;align-items:center;padding:7px 4px;border-bottom:1px solid var(--g100);font-size:10.5px;white-space:nowrap;font-family:Roboto,Inter,sans-serif}
+.ni4-cal-row:nth-child(even){background:#FAFBFC}
+.ni4-cal-row:hover{background:#F0F5F8}
+.ni4-cal-hdr{font-weight:800;color:var(--g500);text-transform:uppercase;font-size:8.5px;border-bottom:2px solid var(--g200);background:white!important}
+.ni4-cal-name{white-space:normal;font-weight:700;color:var(--navy);font-size:11px;line-height:1.3}
+.ni4-cal-yr{background:var(--g100);color:var(--g700);border-radius:999px;padding:2px 8px;font-size:9.5px;font-weight:800;display:inline-block}
+.ni4-cal-comment{white-space:normal;font-size:10px;color:var(--g700);line-height:1.4;font-style:italic}
+.ni4-cal-tbd{color:var(--amarillo);font-weight:800}
+
+/* ══ v20 · Resumen por Epic Owner (pivote Epic × Estatus) ══ */
+.ni5-epic-table-wrap{overflow-x:auto;background:white;border-radius:var(--radius);box-shadow:var(--shadow)}
+.ni5-epic-table{border-collapse:collapse;width:100%;font-family:Roboto,Inter,sans-serif;font-size:11.5px}
+.ni5-epic-table th,.ni5-epic-table td{padding:8px 10px;text-align:center;border:1px solid var(--g100);white-space:nowrap}
+.ni5-epic-table thead th{background:#1B355D;color:#ffffff;font-size:10px;text-transform:uppercase;letter-spacing:.3px;font-weight:800}
+.ni5-epic-table thead th.ni5-th-cerrado{border-top:4px solid #34A853}
+.ni5-epic-table thead th.ni5-th-cambio{border-top:4px solid #7A8AA0}
+.ni5-epic-table thead th.ni5-th-gestion{border-top:4px solid #FBBC04}
+.ni5-epic-table td.ni5-epic-name{text-align:left;font-weight:800;color:var(--navy);font-family:Merriweather,serif;font-size:12.5px;background:#F7F9FC;position:sticky;left:0}
+.ni5-epic-table td.ni5-cell{cursor:pointer;transition:.12s;color:var(--g700);font-weight:600}
+.ni5-epic-table td.ni5-cell:hover{filter:brightness(.94)}
+.ni5-epic-table td.ni5-cell.ni5-zero{color:var(--g200);cursor:default}
+.ni5-epic-table td.ni5-total-col{font-weight:900;color:var(--navy);background:#EFF3FA;cursor:pointer}
+.ni5-epic-table td.ni5-pct-col{color:var(--g500);font-weight:700}
+.ni5-epic-table tr.ni5-total-row td{background:var(--navy);color:#fff;font-weight:900;cursor:pointer}
+.ni5-epic-table tr.ni5-total-row td.ni5-epic-name{background:var(--navy);color:#fff;position:sticky;left:0}
+.ni5-col-cerrado{background:#EAF5EF}
+.ni5-col-cambio{background:#F4F6FA}
+.ni5-col-gestion{background:#FDF6E3}
 </style>
 </head>
 <body>
@@ -827,18 +968,102 @@ tr:hover td{background:#FAFBFC}
   <!-- PORTAFOLIO 2025-2026 · VISTA INTEGRAL DE GOBIERNO -->
   <section id="portafolio" class="section active">
     <div class="hero">
-      <h1>Iniciativas 2025-2026</h1>
+      <h1>Portafolio de Iniciativas 2026–2027</h1>
     </div>
 
-    <!-- ══ CAPA 1 · RESUMEN EJECUTIVO · estructura PMO / Revisión TI ══ -->
+    <!-- ══ CAPÍTULO A · Composición del Portafolio ══ -->
+    <div class="ni4-chapter"><span class="ni4-chapter-badge">A</span><span class="ni4-chapter-title">Composición del Portafolio</span></div>
+
     <div class="pv-grid">
       <div class="pv-card" id="compCard"></div>
       <div class="pv-card" id="estadoCard"></div>
     </div>
 
-    <div class="acc" id="pptoAcc" style="margin-bottom:16px">
+    <div class="acc" id="portTabsAcc" style="margin-bottom:16px">
+      <div class="acc-head" onclick="toggleAcc('portTabsAcc')">
+        <h3>Calendario, Clasificación, Detalle y Base de iniciativas</h3>
+        <span class="acc-chevron">▾</span>
+      </div>
+      <div class="acc-body">
+        <!-- ══ Navegación secundaria (pestañas) ══ -->
+        <div class="ni3-tabs" role="tablist" aria-label="Secciones del portafolio">
+          <button class="ni3-tab active" id="tabBtn_epic" role="tab" aria-selected="true" aria-controls="panel_epic" onclick="ni3ShowTab('epic')">Resumen por Epic Owner</button>
+          <button class="ni3-tab" id="tabBtn_cal" role="tab" aria-selected="false" aria-controls="panel_cal" onclick="ni3ShowTab('cal')">Calendario de atención</button>
+          <button class="ni3-tab" id="tabBtn_clas" role="tab" aria-selected="false" aria-controls="panel_clas" onclick="ni3ShowTab('clas')">Clasificación de iniciativas</button>
+          <button class="ni3-tab" id="tabBtn_det" role="tab" aria-selected="false" aria-controls="panel_det" onclick="ni3ShowTab('det')">Detalle de iniciativas</button>
+          <button class="ni3-tab" id="tabBtn_base" role="tab" aria-selected="false" aria-controls="panel_base" onclick="ni3ShowTab('base')">Base de iniciativas</button>
+        </div>
+
+        <!-- ══ Panel: Calendario de atención ══ -->
+        <div class="ni3-panel" id="panel_cal" role="tabpanel" aria-labelledby="tabBtn_cal">
+          <div class="ni2-cal-filters">
+            <select id="calFEpic" onchange="renderCalendario()"></select>
+            <select id="calFPO" onchange="renderCalendario()"></select>
+            <select id="calFEstatus" onchange="renderCalendario()"></select>
+            <button class="dm-btn" onclick="clearCalFilters()">Limpiar filtros</button>
+          </div>
+          <div class="ni2-cal-legend" id="calLegend"></div>
+          <div class="ni3-cal-counter-row">
+            <span class="ni2-cal-count" id="calCount"></span>
+            <div class="ni2-cal-tags" id="calTags"></div>
+          </div>
+          <div class="ni2-cal-table-wrap"><div id="calTable"></div></div>
+        </div>
+
+        <!-- ══ Panel: Clasificación de iniciativas ══ -->
+        <div class="ni3-panel" id="panel_clas" style="display:none" role="tabpanel" aria-labelledby="tabBtn_clas">
+          <div class="sh" style="margin:0 0 12px;justify-content:flex-end">
+            <div class="dist-mode">
+              <button class="dm-btn active" id="dm_categoria" onclick="setDistMode('categoria')">Por línea (Clasificación)</button>
+              <button class="dm-btn" id="dm_estatus" onclick="setDistMode('estatus')">Por estatus</button>
+            </div>
+          </div>
+          <div id="distGroups"></div>
+        </div>
+
+        <!-- ══ Panel: Detalle de iniciativas (tarjetas) ══ -->
+        <div class="ni3-panel" id="panel_det" style="display:none" role="tabpanel" aria-labelledby="tabBtn_det">
+          <div class="ni3-filter-bar" id="detFilterBar" style="display:none">
+            <span id="detFilterLabel"></span>
+            <button class="ni3-filter-clear" onclick="ni3ClearDetalleFiltro()">Quitar filtro</button>
+          </div>
+          <div id="distDetalle"></div>
+        </div>
+
+        <!-- ══ Panel: Base de iniciativas ══ -->
+        <div class="ni3-panel" id="panel_base" style="display:none" role="tabpanel" aria-labelledby="tabBtn_base">
+          <p style="font-size:12px;color:var(--g500);margin-bottom:10px;font-family:Roboto,Inter,sans-serif">Último nivel de profundidad: las 106 iniciativas del portafolio, con filtros y búsqueda. No sustituye la Base consolidada operativa de HU.</p>
+          <div class="port-filters" style="border-radius:var(--radius);box-shadow:var(--shadow);background:white">
+            <select id="pfPortCat" onchange="renderPortTable()"><option value="">Todos los tipos (PMO)</option></select>
+            <select id="pfPortEstatus" onchange="renderPortTable()"><option value="">Todos los estatus</option></select>
+            <select id="pfPrio" onchange="renderPortTable()"><option value="">Todas las priorizaciones</option></select>
+            <select id="pfEpic" onchange="renderPortTable()"><option value="">Todos los Epic Owners</option></select>
+            <select id="pfPlan" onchange="renderPortTable()"><option value="">Presupuestadas y nuevas</option><option value="SI">Presupuestadas</option><option value="NO">Nuevas</option></select>
+            <select id="pfPO" onchange="renderPortTable()"><option value="">Todos los Product Owners</option></select>
+            <select id="pfSort" onchange="renderPortTable()"><option value="">Orden original</option><option value="asc">Priorización ascendente</option><option value="desc">Priorización descendente</option></select>
+            <input id="portSearch" placeholder="Buscar iniciativa, Epic Owner o PO…" oninput="renderPortTable()">
+            <button class="dm-btn" onclick="clearPortFilters()">Limpiar filtros</button>
+          </div>
+          <div style="background:white;border-radius:0 0 var(--radius) var(--radius);box-shadow:var(--shadow);overflow:hidden">
+            <div class="port-table-hdr"><span>Iniciativa</span><span>Tipo (PMO)</span><span>Epic Owner</span><span>Estatus</span></div>
+            <div id="portTableBody"></div>
+            <div class="port-table-count" id="portCount"></div>
+          </div>
+        </div>
+
+        <!-- ══ Panel: Resumen por Epic Owner ══ -->
+        <div class="ni3-panel" id="panel_epic" style="display:none" role="tabpanel" aria-labelledby="tabBtn_epic">
+          <p style="font-size:12px;color:var(--g500);margin-bottom:12px;font-family:Roboto,Inter,sans-serif">Cruce de Epic Owner contra estatus del portafolio. Haz clic en cualquier celda (incluida la fila y columna Total) para previsualizar las iniciativas que la componen.</p>
+          <div class="ni5-epic-table-wrap"><div id="epicTable"></div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ══ CAPÍTULO B · Presupuesto de Transformación ══ -->
+    <div class="ni4-chapter" style="margin-top:34px;padding-top:20px;border-top:3px solid var(--g200)"><span class="ni4-chapter-badge">B</span><span class="ni4-chapter-title">Presupuesto de Transformación</span></div>
+    <div class="acc open" id="pptoAcc" style="margin-bottom:16px">
       <div class="acc-head" onclick="toggleAcc('pptoAcc')">
-        <h3>2 · Presupuesto de Transformación</h3>
+        <h3>Ver desglose de presupuesto</h3>
         <span class="acc-chevron">▾</span>
       </div>
       <div class="acc-body">
@@ -846,48 +1071,6 @@ tr:hover td{background:#FAFBFC}
           <div class="pv-card pv-inner" id="pptoCard"></div>
           <div class="pv-card pv-inner" id="decisionCard"></div>
         </div>
-      </div>
-    </div>
-
-
-
-    <!-- ══ CAPA 2 · DISTRIBUCIÓN (Capa 3 · detalle al expandir) ══ -->
-    <div class="acc" id="distAcc" style="margin-bottom:16px">
-      <div class="acc-head" onclick="toggleAcc('distAcc')">
-        <h3>Clasificación de Iniciativas</h3>
-        <span class="acc-chevron">▾</span>
-      </div>
-      <div class="acc-body">
-        <div class="cat-legend" id="catLegend"></div>
-        <div class="sh" style="margin:6px 0 12px">
-          <div><p>Cómo se reparte el portafolio. Despliega cualquier grupo para ver sus iniciativas sin salir de esta pantalla.</p></div>
-          <div class="dist-mode">
-            <button class="dm-btn active" id="dm_categoria" onclick="setDistMode('categoria')">Por categoría</button>
-            <button class="dm-btn" id="dm_estatus" onclick="setDistMode('estatus')">Por estatus</button>
-          </div>
-        </div>
-        <div id="distGroups"></div>
-      </div>
-    </div>
-
-    <!-- ══ CAPA 4 · TABLA COMPLETA ══ -->
-    <div class="sh" style="margin-top:26px"><div><h2>Detalle de iniciativas / Búsqueda</h2><p>Último nivel de profundidad: todas las iniciativas con filtros y búsqueda.</p></div></div>
-    <div class="acc" id="portTableAcc">
-      <div class="acc-head" onclick="toggleAcc('portTableAcc')"><h3>Base de iniciativas &nbsp;<span id="portCountHead" style="font-weight:800;color:var(--g500);font-size:12px"></span></h3><span class="acc-chevron">▾</span></div>
-      <div class="acc-body" style="padding:0">
-        <div class="port-filters">
-          <select id="pfPortCat" onchange="renderPortTable()"><option value="">Todas las categorías</option></select>
-          <select id="pfPortEstatus" onchange="renderPortTable()"><option value="">Todos los estatus</option></select>
-          <select id="pfPrio" onchange="renderPortTable()"><option value="">Todas las priorizaciones</option></select>
-          <select id="pfEpic" onchange="renderPortTable()"><option value="">Todos los Epic Owners</option></select>
-          <select id="pfPlan" onchange="renderPortTable()"><option value="">Planeado y no planeado</option><option value="SI">Planeado</option><option value="NO">No planeado</option></select>
-          <select id="pfPO" onchange="renderPortTable()"><option value="">Todos los Product Owners</option></select>
-          <select id="pfSort" onchange="renderPortTable()"><option value="">Orden original</option><option value="asc">Priorización ascendente</option><option value="desc">Priorización descendente</option></select>
-          <input id="portSearch" placeholder="Buscar iniciativa, responsable o célula…" oninput="renderPortTable()">
-        </div>
-        <div class="port-table-hdr"><span>Iniciativa</span><span>Línea de acción</span><span>Responsable</span><span>Estatus</span></div>
-        <div id="portTableBody"></div>
-        <div class="port-table-count" id="portCount"></div>
       </div>
     </div>
   </section>
@@ -1021,6 +1204,578 @@ let CURRENT_SPRINT = 6;
 let PROJECTS, CONT, CELLS, SUMMARY, DATA;
 
 /* ===== UTILS ===== */
+const INI106 = [{"id":"P26-016","cc":"Actualización Tecnológica y Ciberseguridad","dir":"Operaciones y Servicios Bancarios","prog":"Programa Enfoque al Cliente","nom":"Identificación de tipo de solicitudes de Control Central de Cuentas","epic":"A. Nava","po":"Gamaliel Addi Rosas Mora","prio":2.0,"req":"Proyecto","treq":"Tácticos","est":"Ventanilla TI","fatn":2026.0,"estti":"EXPLORAR","sow":"2026-08-08","ini":"2026-08-26","fin":"2026-10-01","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"Si","cand":"No","alc":"Se entrega a mediados de octubre  (2 épicas)"},{"id":"P26-011","cc":"Actualización Tecnológica y Ciberseguridad","dir":"Cobranza/ Reserva e instalacion","prog":"Sistemas Transversales","nom":"REQ-Incluir compresión de archivos en WS de instalación","epic":"A. Nava","po":"Gamaliel Addi Rosas Mora","prio":1.0,"req":"Proyecto","treq":"Tácticos","est":"Ventanilla TI","fatn":2026.0,"estti":"IDEAR","sow":"2025-08-01","ini":"2026-09-01","fin":"2026-11-01","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"Si","cand":"No","alc":"Se entrega en noviembre (2 sprints) / En proceso "},{"id":"P26-012","cc":"Actualización Tecnológica y Ciberseguridad","dir":"Operaciones y Servicios Bancarios","prog":"Programa Enfoque al Cliente","nom":"Reportes Control Central de Cuentas - Mesa de Control","epic":"A. Nava","po":"Gamaliel Addi Rosas Mora","prio":3.0,"req":"Proyecto","treq":"Tácticos","est":"Ventanilla TI","fatn":2026.0,"estti":"IDEAR","sow":"2025-08-01","ini":"2026-09-01","fin":"2026-11-01","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"Si","cand":"No","alc":"Se entrega en noviembre"},{"id":"P26-100","cc":"Enfoque en el Cliente","dir":"DGA Negocios y Canales","prog":"Sistemas Transversales","nom":"Carta Libranza para CNCA, LCOM e Intercompañía | Obtener monto a liquidar de cartas","epic":"S. Olivero","po":"Maria Del Carmen Carmona Lozano","prio":4.0,"req":"Continuidad operativa","treq":"Ajustes y mejoras menores","est":"Proceso","fatn":2026.0,"estti":"CREAR","sow":"2026-08-11","ini":"2026-09-09","fin":"2026-09-24","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":"ejecucion","Oct":"ejecucion","Nov":null,"Dic":null},"mact":"Sep, Oct","ppto":"No","cand":"-","alc":null},{"id":"P26-031","cc":"Continuidad Operativa","dir":"DGA Negocios y Canales","prog":"Sistemas Transversales","nom":"Ajustes al flujo actualización de Datos IMSS - Venta Asistida","epic":"S. Olivero","po":"Maria Del Carmen Carmona Lozano","prio":3.0,"req":"Continuidad operativa","treq":"Ajustes y mejoras menores","est":"Ventanilla TI","fatn":2026.0,"estti":"EXPLORAR","sow":"2026-08-05","ini":"2026-09-14","fin":"2026-10-10","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":"ejecucion","Oct":"ejecucion","Nov":null,"Dic":null},"mact":"Sep, Oct","ppto":"No","cand":"-","alc":null},{"id":"P26-071","cc":"Enfoque en el Cliente","dir":"Servicio al Cliente","prog":"Programa Enfoque al Cliente","nom":"Automatización de procesos (3 sows)\n1. Reembolso\n2. Cargos no reconocidos \n3. Estado de movimientos\n4. Cartas de Liquidación \n5. Reclamación por pagos no aplicados\n6. Expediente de crédito","epic":"A. Nava","po":"Maria Soledad Rojas Villa","prio":2.0,"req":"Nuevo proyecto","treq":"Proyectos","est":"Ventanilla TI","fatn":2026.0,"estti":"ESTATUS POR ÉPICA","sow":"2026-08-04","ini":"2026-09-26","fin":"2026-11-01","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"No","cand":"No. \nConsolida presupuesto de SOWs unificados","alc":"Alcance: 80% \nReembolsos y cargos no reconocidos se inician exploración en 2026 y se continua en 2027. Corresponde al 20%"},{"id":"P26-022","cc":"Enfoque en el Cliente","dir":"Servicio al Cliente","prog":"Programa Enfoque al Cliente","nom":"Vista Integral 360","epic":"A. Nava","po":"Maria Soledad Rojas Villa","prio":2.0,"req":"Nuevo proyecto","treq":"Proyectos","est":"Ventanilla TI","fatn":2026.0,"estti":"EXPLORAR","sow":"2026-04-24","ini":"2026-09-26","fin":"2026-12-01","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":"concluido","Jul":"concluido","Ago":"concluido","Sep":"ejecucion","Oct":"ejecucion","Nov":"ejecucion","Dic":"exploracion"},"mact":"Jun, Jul, Ago, Sep, Oct, Nov, Dic","ppto":"No","cand":"No, consolida presupuesto del SOW unificado","alc":"MVP1\nInicia ejecución finales de septiembre\n1. Conocimiento al cliente: Finaliza dic. 2026 \n2. Experiencia cliente NPS: Finaliza oct 2026, alcance sólo al último NPS no al histórico \n3. Omnicanalidad: En exploración. En definición flujo conversacional, se evaluará capacidad en Salesforce \n4. Experiencia del cliente \nMVP2\n4.1 Número de llamadas: Exploración diciembre 2026, implementación 2027 \n4.2 Casos levantados por el cliente: Confirmar que la vista actual ya contiene los casos por cliente \n5. Cobranza: Exploración octubre 2026, no se puede definir alcance dado que se depende del proveedor MC Collect\nTBD - Falta definición \n6. Derechos ARCO: depende de la entrega de definición para explorar tentativamente en octubre\""},{"id":"P26-066","cc":"Programa Lazos","dir":"DGA Negocios y Canales","prog":null,"nom":"Campaña Perimetral: Trazabilidad WhatsApp creación de lead en Salesforce","epic":"A. Nava","po":"Maria Soledad Rojas Villa","prio":0.0,"req":"Nuevo proyecto","treq":"Lazos","est":"Proceso","fatn":2026.0,"estti":"CREAR","sow":"-","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"No","cand":"-","alc":null},{"id":"P26-067","cc":"Enfoque en el Cliente","dir":"Operaciones y Servicios Bancarios","prog":null,"nom":"Canal de soporte a Backoffice con Agente Numia","epic":"A. Nava","po":"Maria Soledad Rojas Villa","prio":0.0,"req":"Nuevo proyecto","treq":"Proyectos","est":"Proceso","fatn":2026.0,"estti":"SIN ESTATUS","sow":"-","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"No","cand":"-","alc":null},{"id":"P26-098","cc":"Enfoque en el Cliente","dir":"Servicio al Cliente","prog":null,"nom":"Reingeniería IVR","epic":"A. Nava","po":"Maria Soledad Rojas Villa","prio":1.0,"req":"Proyecto","treq":"Tácticos","est":"Proceso","fatn":2026.0,"estti":"ESTATUS POR ÉPICA","sow":"-","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":"concluido","Jul":"exploracion","Ago":"exploracion","Sep":"ejecucion","Oct":"ejecucion","Nov":"ejecucion","Dic":null},"mact":"Jun, Jul, Ago, Sep, Oct, Nov","ppto":"Si","cand":"No","alc":null},{"id":"P26-032","cc":"Programa Lazos","dir":"Operaciones y Servicios Bancarios","prog":"Programa Lazos","nom":"Entrega de TDD BIN Exclusivo Beneficio Chedraui","epic":"A. Nava","po":"Maria Soledad Rojas Villa","prio":2.0,"req":"Nuevo proyecto","treq":"Lazos","est":"Planeación 2027","fatn":2027.0,"estti":"BACKLOG","sow":"2026-08-12","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"No","cand":"-","alc":"Sin capacidad de atención. Si el volumen incrementa e impacta al costo, se cambiará la prioridad para determinar que se baja para atención del presente requerimiento"},{"id":"P26-015","cc":"Enfoque en el Cliente","dir":"Servicio al Cliente","prog":"Programa Enfoque al Cliente","nom":"Originación CXN: Activación de crédito en Salesforce","epic":"A. Nava","po":"Maria Soledad Rojas Villa","prio":4.0,"req":"Proyecto","treq":"Tácticos","est":"Planeación 2027","fatn":2027.0,"estti":"PAUSA","sow":"2025-08-22","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"Si","cand":"No","alc":"Sin capacidad de atención"},{"id":"P26-014","cc":"Enfoque en el Cliente","dir":"Servicio al Cliente","prog":"Programa Lazos","nom":"Actualización de estatus en PCS en el proceso de entrega de TDD a domicilio","epic":"A. Nava","po":"Maria Soledad Rojas Villa","prio":4.0,"req":"Proyecto","treq":"Tácticos","est":"Planeación 2027","fatn":2027.0,"estti":"IDEAR","sow":"2025-08-22","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"Si","cand":"No","alc":"Sin capacidad de atención, exploración dic.  | Solicitud de atención 1er trimestre 2027 "},{"id":"P26-069","cc":"Actualización Tecnológica y Ciberseguridad","dir":"Operaciones y Servicios Bancarios","prog":"Programa Enfoque al Cliente","nom":"Incremental de Domiciliación","epic":"A. Nava","po":"Jessica Isai Juarez Gomez","prio":5.0,"req":"Proyecto","treq":"Tácticos","est":"Planeación 2027","fatn":2027.0,"estti":"BACKLOG","sow":"2026-07-30","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":"pordefinir","May":"pordefinir","Jun":null,"Jul":null,"Ago":null,"Sep":"exploracion","Oct":"estructuracion","Nov":"estructuracion","Dic":null},"mact":"Abr, May, Sep, Oct, Nov","ppto":"Si","cand":"-","alc":"Incremental domiciliación inicia 2027"},{"id":"P26-024","cc":"Enfoque en el Cliente","dir":"Operaciones y Servicios Bancarios","prog":"Programa Enfoque al Cliente","nom":"Algoritmo para autorización automática V1","epic":"A. Nava","po":"Gamaliel Addi Rosas Mora","prio":13.0,"req":"Continuidad operativa","treq":"Continuidad operativa","est":"Ventanilla TI","fatn":"TBD","estti":"NO IDENTIFICADO","sow":"2026-06-30","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"No","cand":"-","alc":"Sin estimación - Backlog"},{"id":"P26-105","cc":"Continuidad Operativa","dir":"Operaciones y Servicios Bancarios","prog":null,"nom":"Plan de trabajo para la optimización de las colas de trabajo","epic":"A. Nava","po":"Gamaliel Addi Rosas Mora","prio":"-","req":"Continuidad operativa","treq":"Continuidad operativa","est":"Proceso","fatn":2027.0,"estti":"NO IDENTIFICADO","sow":"-","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"No","cand":"-","alc":null},{"id":"P26-034","cc":"Programa Lazos","dir":"Operaciones y Servicios Bancarios","prog":"Programa Lazos","nom":"Cambio de nómina en Dependencia: flujo en Plataformas de Venta","epic":"A. Nava","po":"Maria Soledad Rojas Villa","prio":5.0,"req":"Nuevo proyecto","treq":"Lazos","est":"Ventanilla TI","fatn":2026.0,"estti":"BACKLOG","sow":"2026-08-12","ini":"Octubre","fin":"TBD","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":"exploracion","Nov":"estructuracion","Dic":"estructuracion"},"mact":"Oct, Nov, Dic","ppto":"No","cand":"-","alc":"Exploraración en Octubre y Noviembre (sin fecha implementación) "},{"id":"P26-033","cc":"Programa Lazos","dir":"Operaciones y Servicios Bancarios","prog":"Programa Lazos","nom":"Incrementos de Portabilidad","epic":"A. Nava","po":"Maria Soledad Rojas Villa","prio":3.0,"req":"Nuevo proyecto","treq":"Proyectos","est":"Ventanilla TI","fatn":"Por revisar","estti":"SIN ESTATUS","sow":"2026-08-12","ini":"Por revisar","fin":"Por revisar","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"No","cand":"-","alc":"Revisar priorización con Christian Carreón para identificar si se baja algo del portafolio regulatorio"},{"id":"P26-062","cc":"Actualización Tecnológica y Ciberseguridad","dir":"Operaciones y Servicios Bancarios","prog":"Programa Enfoque al Cliente","nom":"Automatización proceso trxs POS MVP 1","epic":"A. Nava","po":"Jessica Isai Juarez Gomez","prio":3.0,"req":"Proyecto","treq":"Tácticos","est":"Ventanilla TI","fatn":2026.0,"estti":"EXPLORAR","sow":"2026-08-28","ini":"Septiembre","fin":"TDB","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"Si","cand":"No","alc":"2026: \n-Copia y posteo de pagos (Inicia en octubre)\n-Conciliación PROSA (Inicia análisis en Octubre)\n\n2027: \n- Monitoreo de devoluciones TDD\n"},{"id":"P26-073","cc":"Enfoque en el Cliente","dir":"Servicio al Cliente","prog":null,"nom":"Sistema de Gestión Integral MAP40","epic":"S. Olivero","po":"Maria Soledad Rojas Villa","prio":0.0,"req":"Proyecto","treq":"Estratégico","est":"Cancelado","fatn":"N/A","estti":"SIN ESTATUS","sow":"-","ini":"-","fin":"-","m":{"Ene":"ejecucion","Feb":"ejecucion","Mar":"ejecucion","Abr":"ejecucion","May":"ejecucion","Jun":"concluido","Jul":"concluido","Ago":"concluido","Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":"Ene, Feb, Mar, Abr, May, Jun, Jul, Ago","ppto":"Si","cand":"-","alc":"08/09/2026 Alineación con DRI, Normatividad y Epic de cancelación de iniciativa ante aviso de no operar MAP40 ni CNCA Interno por reactivación de IMSS"},{"id":"P26-002","cc":"Continuidad Operativa","dir":"Banca patrimonial","prog":null,"nom":"Actualización de los formatos de auto-certificación PF y PM","epic":"C. Budar","po":"Gamaliel Addi Rosas Mora","prio":0.0,"req":"Continuidad operativa","treq":"Ajustes y mejoras menores","est":"Proceso","fatn":2026.0,"estti":"NO IDENTIFICADO","sow":"-","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"No","cand":"-","alc":null},{"id":"P26-035","cc":"Programa Lazos","dir":"Operaciones y Servicios Bancarios","prog":null,"nom":"Automatización Programa Lazos","epic":"A. Nava","po":"Maria Soledad Rojas Villa","prio":0.0,"req":"Nuevo proyecto","treq":"Lazos","est":"Proceso","fatn":2026.0,"estti":"ESTATUS POR ÉPICA","sow":"-","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"No","cand":"-","alc":null},{"id":"P26-039","cc":"Actualización Tecnológica y Ciberseguridad","dir":"Jurídico","prog":null,"nom":"MONITOR PLUS Connect","epic":"C.Carreón","po":"Lopez Garcia Emily Wendolin","prio":0.0,"req":"Proyecto","treq":"Regulatorio","est":"Proceso","fatn":2026.0,"estti":null,"sow":"-","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":"exploracion","Oct":"exploracion","Nov":"exploracion","Dic":"exploracion"},"mact":null,"ppto":"Si","cand":"No","alc":null},{"id":"P26-054","cc":"Actualización Tecnológica y Ciberseguridad","dir":"Jurídico","prog":null,"nom":"MONITOR PLUS PMFD","epic":"C.Carreón","po":"Lopez Garcia Emily Wendolin","prio":0.0,"req":"Proyecto","treq":"Regulatorio","est":"Proceso","fatn":2026.0,"estti":null,"sow":"-","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"Si","cand":"No","alc":null},{"id":"P26-055","cc":"Actualización Tecnológica y Ciberseguridad","dir":"Jurídico","prog":null,"nom":"MONITOR PLUS DBFD","epic":"C.Carreón","po":"Lopez Garcia Emily Wendolin","prio":0.0,"req":"Proyecto","treq":"Regulatorio","est":"Proceso","fatn":2026.0,"estti":null,"sow":"-","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"Si","cand":"No","alc":null},{"id":"P26-057","cc":"Actualización Tecnológica y Ciberseguridad","dir":"Jurídico","prog":null,"nom":"Consultoría en PCI DSS","epic":"G. Hernández M.","po":"Lopez Garcia Emily Wendolin\nEdsel Fernando Martinez Lira","prio":0.0,"req":"Proyecto","treq":"Regulatorio","est":"Proceso","fatn":2026.0,"estti":null,"sow":"-","ini":"-","fin":"-","m":{"Ene":"ejecucion","Feb":"ejecucion","Mar":"ejecucion","Abr":"ejecucion","May":"ejecucion","Jun":"ejecucion","Jul":"ejecucion","Ago":"ejecucion","Sep":"ejecucion","Oct":"ejecucion","Nov":"ejecucion","Dic":"ejecucion"},"mact":"Ene, Feb, Mar, Abr, May, Jun, Jul, Ago, Sep, Oct, Nov, Dic","ppto":"Si","cand":"No","alc":null},{"id":"P26-077","cc":"Enfoque al Cliente","dir":"Capital Humano Comercial","prog":null,"nom":"Canal en slack de reclutamiento de personal de fuerza de ventas","epic":"S. Olivero","po":"Luis Enrique Hernandez Marin","prio":0.0,"req":"Continuidad operativa","treq":"Ajustes y mejoras menores","est":"Planeación 2027","fatn":"N/A","estti":"BACKLOG","sow":"-","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"No","cand":"-","alc":null},{"id":"P26-041","cc":"Enfoque en el Cliente","dir":"Servicio al Cliente","prog":null,"nom":"NPS","epic":"A. Nava","po":"Maria Soledad Rojas Villa","prio":1.0,"req":"Nuevo proyecto","treq":"Proyectos","est":"Proceso","fatn":2026.0,"estti":"ESTATUS POR ÉPICA","sow":"-","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":"concluido","Jul":"concluido","Ago":"exploracion","Sep":"estructuracion","Oct":null,"Nov":null,"Dic":null},"mact":"Jun, Jul, Ago, Sep","ppto":"No","cand":"-","alc":"Entrega de métricas TBD, se realizará teamback en TI para conocer el dimensionamiento del desarrollo "},{"id":"P26-029","cc":"Programa Lazos","dir":"Dirección Canal Digital","prog":"Programa Lazos","nom":"Apertura de cuenta + Crédito","epic":"R. Cohen","po":"Cristian Antonio Rodriguez Hernandez","prio":1.0,"req":"Nuevo proyecto","treq":"Lazos","est":"Ventanilla TI","fatn":2027.0,"estti":null,"sow":"2026-06-05","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":"ejecucion","Oct":"ejecucion","Nov":"ejecucion","Dic":null},"mact":"Sep, Oct, Nov","ppto":"No","cand":"-","alc":null},{"id":"P26-078","cc":"Actualización Tecnológica y Ciberseguridad","dir":"Operaciones y Servicios Bancarios","prog":"Programa Enfoque al Cliente","nom":"Monitoreo de devoluciones en compras por tarjeta","epic":"A. Nava","po":"Lopez Garcia Emily Wendolin","prio":1.0,"req":"Proyecto","treq":"Tácticos","est":"Planeación 2027","fatn":2027.0,"estti":null,"sow":"2026-08-07","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"Si","cand":"No","alc":"Sin capacidad de atención"},{"id":"P26-053","cc":"Actualización Tecnológica y Ciberseguridad","dir":"TI","prog":null,"nom":"Nuevo Core Bancario & Bca Empresarial","epic":"M. Matus","po":"Jessica Isai Juarez Gomez","prio":1.0,"req":"Proyecto","treq":"Estratégico","est":"Proceso","fatn":"TBD","estti":"SIN ESTATUS","sow":"1905-07-17","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"Si","cand":"No","alc":null},{"id":"P26-060","cc":"Continuidad Operativa","dir":"DGA Negocios y Canales","prog":"Sistemas Transversales","nom":"Ingresar prospectos manuales","epic":"S. Olivero","po":"Luis Enrique Hernandez Marin","prio":1.0,"req":"Continuidad operativa","treq":"Ajustes y mejoras menores","est":"Ventanilla TI","fatn":"TBD","estti":"BACKLOG","sow":"2026-08-05","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":"estructuracion","Oct":"estructuracion","Nov":"estructuracion","Dic":null},"mact":"Sep, Oct, Nov","ppto":"No","cand":"-","alc":null},{"id":"P26-101","cc":"Continuidad Operativa","dir":"Cumplimiento","prog":null,"nom":"Controles de Integridad de Software Core Bancario","epic":"C.Carreón","po":"Lopez Garcia Emily Wendolin\nEdsel Fernando Martinez Lira","prio":1.0,"req":"Nuevo proyecto","treq":"Regulatorio","est":"Definición de Negocio","fatn":"TBD","estti":null,"sow":"-","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"No","cand":"-","alc":null},{"id":"P26-068","cc":"Nueva Generación de Plataformas Digitales","dir":"DGA Negocios y Canales","prog":null,"nom":"Contactabilidad Integral en MMP","epic":"S. Olivero","po":"Luis Enrique Hernandez Marin","prio":1.0,"req":"Proyecto","treq":"Estratégico","est":"Planeación 2027","fatn":2027.0,"estti":"BACKLOG","sow":"Del 3 al 7 agosto","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":"estructuracion","Oct":null,"Nov":null,"Dic":null},"mact":"Sep","ppto":"Si","cand":"-","alc":"Se traslada al 2027"},{"id":"P26-082","cc":"Enfoque en el Cliente","dir":"Cumplimiento","prog":"Regulatorios","nom":"Homologación en Flujos transaccionales Digitales (Circulares 9/2026 y 10/2026) / CODI y DIMI Actualización","epic":"C.Carreón","po":"Martin Nieto Gomez","prio":1.0,"req":"Nuevo proyecto","treq":"Regulatorio","est":"Ventanilla TI","fatn":2026.0,"estti":null,"sow":"2026-08-07","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":"exploracion","Oct":"ejecucion","Nov":"ejecucion","Dic":"ejecucion"},"mact":"Sep, Oct, Nov, Dic","ppto":"No","cand":"-","alc":null},{"id":"P26-065","cc":"Enfoque en el Cliente","dir":"DGA Negocios y Canales","prog":"Fortalecimiento del Sistema de Control Interno y Cumplimiento","nom":"Automatización de formato F02 para personas PEP . Fase 1 y 2","epic":"S. Olivero","po":"Maria Del Carmen Carmona Lozano","prio":1.0,"req":"Nuevo proyecto","treq":"Regulatorio","est":"Ventanilla TI","fatn":2026.0,"estti":"EXPLORAR","sow":"2026-07-21","ini":"-","fin":"-","m":{"Ene":"ejecucion","Feb":"ejecucion","Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":"ejecucion","Sep":"ejecucion","Oct":"ejecucion","Nov":null,"Dic":null},"mact":"Ene, Feb, Ago, Sep, Oct","ppto":"No","cand":"-","alc":null},{"id":"P26-079","cc":"Actualización Tecnológica y Ciberseguridad","dir":"Operaciones y Servicios Bancarios","prog":"Gestión Integral de Riesgos","nom":"Monitor SPEI","epic":"A. Nava","po":"Lopez Garcia Emily Wendolin","prio":2.0,"req":"Proyecto","treq":"Tácticos","est":"Planeación 2027","fatn":2027.0,"estti":null,"sow":"2026-08-07","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"Si","cand":"No","alc":"Sin capacidad de atención"},{"id":"P26-056","cc":"Enfoque en el Cliente","dir":"Banca Patrimonial","prog":null,"nom":"Cuenta Rocket","epic":"C. Budar","po":"Jessica Isai Juarez Gomez","prio":2.0,"req":"Proyecto","treq":"Estratégico","est":"Proceso","fatn":2026.0,"estti":"CREAR","sow":"1905-07-17","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":"ejecucion","Sep":"ejecucion","Oct":"ejecucion","Nov":"ejecucion","Dic":null},"mact":"Ago, Sep, Oct, Nov","ppto":"Si","cand":"TBD","alc":null},{"id":"P26-051","cc":"Continuidad Operativa","dir":"DGA Negocios y Canales","prog":"Sistemas Transversales","nom":"Visualización del último video en CRM","epic":"S. Olivero","po":"Maria Del Carmen Carmona Lozano","prio":2.0,"req":"Continuidad operativa","treq":"Ajustes y mejoras menores","est":"Ventanilla TI","fatn":"TBD","estti":"BACKLOG","sow":"2026-08-05","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":"exploracion","Oct":"ejecucion","Nov":"ejecucion","Dic":null},"mact":"Sep, Oct, Nov","ppto":"No","cand":"-","alc":null},{"id":"P26-072","cc":"Actualización Tecnológica y Ciberseguridad","dir":"Finanzas","prog":"Fortalecimiento del Sistema de Control Interno y Cumplimiento","nom":"Control de Cambios Proceso de Seguimiento Articulo 61","epic":"C.Carreón","po":"Lopez Garcia Emily Wendolin\nEdsel Fernando Martinez Lira","prio":2.0,"req":"Proyecto","treq":"Tácticos","est":"Ventanilla TI","fatn":"TBD","estti":null,"sow":"2026-08-05","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"Si","cand":"No","alc":null},{"id":"P26-020","cc":"Actualización Tecnológica y Ciberseguridad","dir":"Operaciones y Servicios Bancarios","prog":"Estrategia Financiera","nom":"Actualización de mapeo contable de Operación POS","epic":"A. Nava","po":"Jessica Isai Juarez Gomez","prio":3.0,"req":"Proyecto","treq":"Tácticos","est":"Planeación 2027","fatn":2027.0,"estti":"EXPLORAR","sow":"2026-08-28","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"Si","cand":"No","alc":"Mapeo contable inicia 2027"},{"id":"P26-080","cc":"Actualización Tecnológica y Ciberseguridad","dir":"Operaciones y Servicios Bancarios","prog":"Gestión Integral de Riesgos","nom":"Monitoreo preventivo","epic":"A. Nava","po":"Lopez Garcia Emily Wendolin","prio":3.0,"req":"Proyecto","treq":"Tácticos","est":"Planeación 2027","fatn":2027.0,"estti":null,"sow":"2026-08-07","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"Si","cand":"No","alc":"Sin capacidad de atención"},{"id":"P26-043","cc":"Enfoque en el Cliente","dir":"Servicio al Cliente","prog":null,"nom":"Depósito en efectivo mediante código de barras","epic":"A. Nava","po":"Maria Soledad Rojas Villa","prio":3.0,"req":"Proyecto","treq":"Tácticos","est":"Liberado","fatn":2026.0,"estti":"LIBERADO","sow":"-","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"Si","cand":"No","alc":null},{"id":"P26-064","cc":"Enfoque en el Cliente","dir":"DGA Negocios y Canales","prog":"Programa Enfoque al Cliente","nom":"Excepción biométrica y biométrico dactilar 2026","epic":"S. Olivero","po":"Maria Del Carmen Carmona Lozano","prio":3.0,"req":"Proyecto","treq":"Tácticos","est":"Ventanilla TI","fatn":"TBD","estti":"BACKLOG","sow":"2025-09-23","ini":"Septiembre","fin":"TBD","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":"exploracion","Oct":"estructuracion","Nov":"estructuracion","Dic":"estructuracion"},"mact":"Sep, Oct, Nov, Dic ->","ppto":"Si","cand":"No","alc":null},{"id":"P26-081","cc":"Actualización Tecnológica y Ciberseguridad","dir":"Operaciones y Servicios Bancarios","prog":"Gestión Integral de Riesgos","nom":"SPEI Monitor de Conciliación SPEI MVP","epic":"A. Nava","po":"Lopez Garcia Emily Wendolin","prio":4.0,"req":"Proyecto","treq":"Tácticos","est":"Planeación 2027","fatn":2027.0,"estti":null,"sow":"2026-08-07","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"Si","cand":"No","alc":"Sin capacidad de atención"},{"id":"P26-102","cc":"Continuidad Operativa","dir":"Cumplimiento","prog":null,"nom":"2FA en Flujo de Cargos No Presenciales\n-3D Secure 2.0\n-Monitor Plus","epic":"C.Carreón","po":"Lopez Garcia Emily Wendolin\nEdsel Fernando Martinez Lira","prio":4.0,"req":"Nuevo proyecto","treq":"Regulatorio","est":"Definición de Negocio","fatn":"TBD","estti":null,"sow":"-","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":"pordefinir","Jun":null,"Jul":null,"Ago":null,"Sep":"exploracion","Oct":"exploracion","Nov":"ejecucion","Dic":"ejecucion"},"mact":"May, Sep, Oct, Nov, Dic","ppto":"No","cand":"-","alc":null},{"id":"P26-075","cc":"Enfoque en el Cliente","dir":"DGA Negocios y Canales","prog":null,"nom":"Oferta Dinamica 2.0","epic":"S. Olivero","po":"Maria Del Carmen Carmona Lozano Luis Enrique Hernandez Marin","prio":4.0,"req":"Proyecto","treq":"Tácticos","est":"Proceso","fatn":2026.0,"estti":"CREAR","sow":"-","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"Si","cand":"-","alc":null},{"id":"P26-058","cc":"Actualización Tecnológica y Ciberseguridad","dir":"TI","prog":null,"nom":"Migración a BAW en Contenedores","epic":"M. Matus","po":"-","prio":4.0,"req":"Proyecto","treq":"Modernización Tecnológica","est":"Proceso","fatn":2026.0,"estti":null,"sow":"-","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"Si","cand":"TBD","alc":null},{"id":"P26-096","cc":"Enfoque en el Cliente","dir":"DGA Negocios y Canales","prog":"Programa Enfoque al Cliente","nom":"Resolucion de incidencias SPEI","epic":"S. Olivero","po":"Maria Del Carmen Carmona Lozano","prio":4.0,"req":"Proyecto","treq":"Tácticos","est":"Ventanilla TI","fatn":"TBD","estti":"IDEAR","sow":"2025-09-24","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"Si","cand":"TBD","alc":null},{"id":"P26-070","cc":"Enfoque en el Cliente","dir":"Banca Patrimonial","prog":"Programa Enfoque al Cliente","nom":"Actualización y consulta de comprobantes de inversión","epic":"C. Budar","po":"Jessica Isai Juarez Gomez","prio":4.0,"req":"Proyecto","treq":"Tácticos","est":"Ventanilla TI","fatn":"TBD","estti":"EXPLORAR","sow":"2026-07-31","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"Si","cand":"No","alc":null},{"id":"P26-017","cc":"Actualización Tecnológica y Ciberseguridad","dir":"Operaciones y Servicios Bancarios","prog":null,"nom":"Implementación de TEF","epic":"A. Nava","po":"Lopez Garcia Emily Wendolin","prio":5.0,"req":"Proyecto","treq":"Tácticos","est":"Cancelado","fatn":"N/A","estti":"NO IDENTIFICADO","sow":"-","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"Si","cand":"SI","alc":"-"},{"id":"P26-050","cc":"Continuidad Operativa","dir":"DGA Negocios y Canales","prog":"Sistemas Transversales","nom":"CNCA Interno en solicitudes Salesforce - Venta Asistida","epic":"S. Olivero","po":"Maria Del Carmen Carmona Lozano","prio":5.0,"req":"Continuidad operativa","treq":"Ajustes y mejoras menores","est":"Cancelado","fatn":"N/A","estti":"BACKLOG","sow":"2026-08-05","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"No","cand":"-","alc":"08/09/2026 Alineación con DRI, Normatividad y Epic de cancelación de iniciativa ante aviso de no seguir operando MAP40 ni CNCA Interno por reactivación de IMSS"},{"id":"P26-099","cc":"Enfoque en el Cliente","dir":"Cumplimiento","prog":null,"nom":"Implementación: PUI - Protocolo de Alerta Nacional de Búsqueda de Personas Desaparecidas","epic":"C.Carreón","po":"Lopez Garcia Emily Wendolin\nEdsel Fernando Martinez Lira","prio":5.0,"req":"Nuevo proyecto","treq":"Regulatorio","est":"Proceso","fatn":2026.0,"estti":null,"sow":"-","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"No","cand":"-","alc":null},{"id":"P26-021","cc":"Actualización Tecnológica y Ciberseguridad","dir":"Operaciones y Servicios Bancarios","prog":null,"nom":"Tokenización","epic":"A. Nava","po":"Lopez Garcia Emily Wendolin","prio":6.0,"req":"Proyecto","treq":"Tácticos","est":"Planeación 2027","fatn":2027.0,"estti":null,"sow":"-","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"Si","cand":"SI","alc":"-"},{"id":"P26-026","cc":"Enfoque en el Cliente","dir":"Banca Patrimonial","prog":"Programa Enfoque al Cliente","nom":"Generación de tablero de resultados de Banca patrimonial","epic":"C. Budar","po":"Jessica Isai Juarez Gomez","prio":6.0,"req":"Proyecto","treq":"Tácticos","est":"Ventanilla TI","fatn":"TBD","estti":"BACKLOG","sow":"2026-08-21","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"Si","cand":"No","alc":null},{"id":"P26-018","cc":"Continuidad Operativa","dir":"DGA Negocios y Canales","prog":"Sistemas Transversales","nom":"Notificación de Whatsapp en procesos de venta asistida.","epic":"S. Olivero","po":"Maria Del Carmen Carmona Lozano","prio":6.0,"req":"Continuidad operativa","treq":"Ajustes y mejoras menores","est":"Ventanilla TI","fatn":"TBD","estti":"BACKLOG","sow":"2026-07-21","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"No","cand":"-","alc":null},{"id":"P26-106","cc":"Continuidad Operativa","dir":"Cumplimiento","prog":null,"nom":"Plataforma de Intercambio de Información","epic":"C.Carreón","po":"Lopez Garcia Emily Wendolin\nEdsel Fernando Martinez Lira","prio":6.0,"req":"Nuevo proyecto","treq":"Regulatorio","est":"Definición de Negocio","fatn":2027.0,"estti":null,"sow":"-","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"No","cand":"-","alc":null},{"id":"P26-023","cc":"Actualización Tecnológica y Ciberseguridad","dir":"Jurídico","prog":null,"nom":"Migracion Campo c63 al c57","epic":"A. Nava","po":"Lopez Garcia Emily Wendolin\nEdsel Fernando Martinez Lira","prio":7.0,"req":"Proyecto","treq":"Regulatorio","est":"Definición de Negocio","fatn":"TBD","estti":"EXPLORAR","sow":"-","ini":"-","fin":"-","m":{"Ene":"ejecucion","Feb":"ejecucion","Mar":"ejecucion","Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":"ejecucion","Oct":"ejecucion","Nov":"ejecucion","Dic":"ejecucion"},"mact":"Ene, Feb, Mar, Sep, Oct, Nov, Dic","ppto":"Si","cand":"No","alc":null},{"id":"P26-083","cc":"Enfoque en el Cliente","dir":"Banca Patrimonial","prog":"Programa Enfoque al Cliente","nom":"Optimizacion Apertura Cuenta Personas Fisicas","epic":"C. Budar","po":"Gamaliel Addi Rosas Mora","prio":7.0,"req":"Proyecto","treq":"Tácticos","est":"Ventanilla TI","fatn":"TBD","estti":"EXPLORAR","sow":"2026-08-10","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"Si","cand":"No","alc":null},{"id":"P26-013","cc":"Enfoque en el Cliente","dir":"Banca Patrimonial","prog":"Programa Enfoque al Cliente","nom":"Actualización de datos por cambios posteriores a la Apertura","epic":"C. Budar","po":"Gamaliel Addi Rosas Mora","prio":8.0,"req":"Proyecto","treq":"Tácticos","est":"Ventanilla TI","fatn":"TBD","estti":"EXPLORAR","sow":"2025-08-01","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"Si","cand":"No","alc":null},{"id":"P26-037","cc":"Actualización Tecnológica y Ciberseguridad","dir":"Finanzas","prog":null,"nom":"Upgrade S4 HANNA (E R P)","epic":"C. Budar","po":"-","prio":10.0,"req":"Proyecto","treq":"Modernización Tecnológica","est":"Proceso","fatn":2026.0,"estti":null,"sow":"-","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"Si","cand":"No","alc":null},{"id":"P26-061","cc":"Actualización Tecnológica y Ciberseguridad","dir":"TI","prog":null,"nom":"Migración BRMS de JRULES a ODM","epic":"M. Matus","po":"-","prio":11.0,"req":"Proyecto","treq":"Modernización Tecnológica","est":"Proceso","fatn":2026.0,"estti":null,"sow":"-","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"Si","cand":"TBD","alc":null},{"id":"P26-005","cc":"Enfoque en el Cliente","dir":"Servicio al Cliente","prog":null,"nom":"Habilitación de asistente virtual y chat web con IA","epic":"A. Nava","po":"Maria Soledad Rojas Villa","prio":"-","req":"Proyecto","treq":"Tácticos","est":"Cancelado","fatn":"N/A","estti":null,"sow":"-","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"Si","cand":"Si","alc":"-"},{"id":"P26-001","cc":"Enfoque en el Cliente","dir":"Finanzas","prog":null,"nom":"FACTA / CRS personas físicas y morales","epic":"C.Carreón","po":"Gamaliel Addi Rosas Mora","prio":"-","req":"Nuevo proyecto","treq":"Regulatorio","est":"Planeación 2027","fatn":2027.0,"estti":"NO IDENTIFICADO","sow":"-","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"No","cand":"-","alc":null},{"id":"P26-004","cc":"Actualización Tecnológica y Ciberseguridad","dir":"Capital Humano - Nóminas","prog":null,"nom":"Dispersion desde el modulo de nómina a cuentas CSB","epic":"M. Del Olmo","po":"-","prio":"-","req":"Proyecto","treq":"Tácticos","est":"Cancelado","fatn":"N/A","estti":null,"sow":"-","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"Si","cand":"Si","alc":null},{"id":"P26-085","cc":"Actualización Tecnológica y Ciberseguridad","dir":"Operaciones y Servicios Bancarios","prog":null,"nom":"Estabilización de muestreo en Mesa de Control","epic":"A. Nava","po":"Gamaliel Addi Rosas Mora","prio":"-","req":"Proyecto","treq":"Tácticos","est":"Liberado","fatn":2026.0,"estti":"LIBERADO","sow":"2025-08-01","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"Si","cand":"Si ppto. disponible","alc":null},{"id":"P26-086","cc":"Programa Lazos","dir":"Dirección Canal Digital","prog":null,"nom":"Mejora enrolamiento Jul-2024","epic":"R. Cohen","po":"Cristian Antonio Rodriguez Hernandez","prio":"-","req":"Proyecto","treq":"Tácticos","est":"Liberado","fatn":2026.0,"estti":null,"sow":"-","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"Si","cand":"Si ppto. disponible","alc":null},{"id":"P26-087","cc":"Actualización Tecnológica y Ciberseguridad","dir":"Dirección Canal Digital","prog":null,"nom":"Roll Out Convenios RENEX","epic":"R. Cohen","po":"Cristian Antonio Rodriguez Hernandez","prio":"-","req":"Proyecto","treq":"Tácticos","est":"Liberado","fatn":2026.0,"estti":null,"sow":"-","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"Si","cand":"Si ppto. disponible","alc":null},{"id":"P26-088","cc":"Enfoque en el Cliente","dir":"Servicio al Cliente","prog":null,"nom":"Notificaciones a cliente por contingencia","epic":"A. Nava","po":"Maria Soledad Rojas Villa","prio":"-","req":"Proyecto","treq":"Tácticos","est":"Liberado","fatn":2026.0,"estti":"LIBERADO","sow":"-","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"Si","cand":"Si, se cubrió por Contingencia","alc":null},{"id":"P26-089","cc":"Actualización Tecnológica y Ciberseguridad","dir":"Operaciones y Servicios Bancarios","prog":null,"nom":"Catálogo de oficinas de TDD en Sucursal desde la PUC","epic":"A. Nava","po":"Maria Soledad Rojas Villa","prio":"-","req":"Proyecto","treq":"Tácticos","est":"Liberado","fatn":2026.0,"estti":"LIBERADO","sow":"-","ini":"-","fin":"-","m":{"Ene":"concluido","Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":"Ene","ppto":"Si","cand":"Si ppto. disponible","alc":null},{"id":"P26-090","cc":"Enfoque en el Cliente","dir":"Servicio al Cliente","prog":null,"nom":"Alta de tickets para Tarjetas digitales","epic":"A. Nava","po":"Maria Soledad Rojas Villa","prio":"-","req":"Proyecto","treq":"Tácticos","est":"Liberado","fatn":2026.0,"estti":"LIBERADO","sow":"-","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"Si","cand":"Si ppto. disponible","alc":null},{"id":"P26-091","cc":"Enfoque en el Cliente","dir":"Servicio al Cliente","prog":null,"nom":"Vista 360 de acuerdo con el tipo de cliente CAV","epic":"A. Nava","po":"Maria Soledad Rojas Villa","prio":"-","req":"Proyecto","treq":"Tácticos","est":"Liberado","fatn":2026.0,"estti":"LIBERADO","sow":"-","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"Si","cand":"No, se consolida en Vista 360 Integral","alc":null},{"id":"P26-094","cc":"Nueva Generación de Plataformas Digitales","dir":"DGA Negocios y Canales","prog":null,"nom":"Reingenieria del flujo en CSB Promotor","epic":"S. Olivero","po":"Maria Del Carmen Carmona Lozano","prio":"-","req":"Proyecto","treq":"Estratégico","est":"Por sustituir","fatn":"N/A","estti":"PAUSA","sow":"-","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":"exploracion","Oct":null,"Nov":null,"Dic":null},"mact":"Sep","ppto":"Si","cand":"TBD","alc":null},{"id":"P26-003","cc":"Actualización Tecnológica y Ciberseguridad","dir":"Jurídico","prog":null,"nom":"Renta de la Licencia Sistema de Reportes Regulatorios Reportware","epic":"C. Budar","po":"-","prio":"-","req":"Proyecto","treq":"Regulatorio","est":"Proceso","fatn":2027.0,"estti":null,"sow":"-","ini":"-","fin":"-","m":{"Ene":null,"Feb":"pordefinir","Mar":"pordefinir","Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":"Feb, Mar","ppto":"Si","cand":"No","alc":null},{"id":"P26-092","cc":"Programa Lazos","dir":"Dirección Canal Digital","prog":null,"nom":"Refiere un amigo","epic":"R. Cohen","po":"Cristian Antonio Rodriguez Hernandez","prio":"-","req":"Proyecto","treq":"Estratégico","est":"Por sustituir","fatn":"N/A","estti":null,"sow":"-","ini":"-","fin":"-","m":{"Ene":"ejecucion","Feb":"ejecucion","Mar":"ejecucion","Abr":"ejecucion","May":"ejecucion","Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":"Ene, Feb, Mar, Abr, May","ppto":"Si","cand":"TBD","alc":null},{"id":"P26-093","cc":"Nueva Generación de Plataformas Digitales","dir":"DGA Negocios y Canales","prog":null,"nom":"Plataforma Única de Promotores","epic":"S. Olivero","po":"Maria Del Carmen Carmona Lozano","prio":"-","req":"Proyecto","treq":"Estratégico","est":"Por sustituir","fatn":"TBD","estti":"BACKLOG","sow":"-","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"Si","cand":"TBD","alc":null},{"id":"P26-104","cc":"Continuidad Operativa","dir":"DGA Negocios y Canales","prog":null,"nom":"Obtención de datos PAC para servicios de retención en plataforma digital","epic":"S. Olivero","po":"Luis Enrique Hernandez Marin","prio":"-","req":"Nuevo proyecto","treq":"Proyectos","est":"Planeación 2027","fatn":"N/A","estti":"BACKLOG","sow":"-","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"No","cand":"-","alc":null},{"id":"P26-103","cc":"Continuidad Operativa","dir":"Cumplimiento","prog":"Regulatorios","nom":"Fortalecimiento de la Consulta de Listas DetecArtWeb (Incremental)","epic":"C.Carreón","po":"Gamaliel Addi Rosas Mora","prio":"Por asignar prioridad","req":"Nuevo proyecto","treq":"Regulatorio","est":"Ventanilla TI","fatn":"TBD","estti":"BACKLOG","sow":"2026-08-18","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"No","cand":"-","alc":null},{"id":"P26-095","cc":"Enfoque en el Cliente","dir":"DGA Negocios y Canales","prog":"Plataforma Única de Promotores","nom":"Módulo de prospección TMK","epic":"S. Olivero","po":"Maria Del Carmen Carmona Lozano","prio":"Por asignar prioridad","req":"Proyecto","treq":"Estratégico","est":"Ventanilla TI","fatn":2026.0,"estti":"IDEAR","sow":"2025-07-27","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":"exploracion","Nov":"estructuracion","Dic":null},"mact":"Oct, Nov","ppto":"Si","cand":"TBD","alc":null},{"id":"P26-019","cc":"Enfoque en el Cliente","dir":"Servicio al Cliente","prog":null,"nom":"Identificador Cliente Derechos ARCO","epic":"A. Nava","po":"Lopez Garcia Emily Wendolin\nMaria Soledad Rojas Villa","prio":"TBD","req":"Proyecto","treq":"Tácticos","est":"Definición de Negocio","fatn":"TBD","estti":"PAUSA","sow":"TBD","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"Si","cand":"TBD","alc":"-"},{"id":"P26-006","cc":"Enfoque en el Cliente","dir":"Servicio al Cliente","prog":null,"nom":"Visualización y nuevas funcionalidades para OTP","epic":"A. Nava","po":"Maria Soledad Rojas Villa","prio":null,"req":"Proyecto","treq":"Tácticos","est":"Cancelado","fatn":"N/A","estti":null,"sow":"-","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"Si","cand":"Si","alc":"-"},{"id":"P26-007","cc":"Enfoque en el Cliente","dir":"Servicio al Cliente","prog":null,"nom":"Bloqueo de emisión de Estados de Movimientos","epic":"A. Nava","po":"Maria Soledad Rojas Villa","prio":null,"req":"Proyecto","treq":"Tácticos","est":"Consolidado Nuevo Proyecto","fatn":2026.0,"estti":null,"sow":"-","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"Si","cand":"No, se consolida en Automatización de procesos","alc":"-"},{"id":"P26-008","cc":"Enfoque en el Cliente","dir":"Servicio al Cliente","prog":null,"nom":"Alta de tickets desde aplicaciones móviles","epic":"A. Nava","po":"Maria Soledad Rojas Villa","prio":null,"req":"Proyecto","treq":"Tácticos","est":"Consolidado Nuevo Proyecto","fatn":2026.0,"estti":null,"sow":"-","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"Si","cand":"No, se consolida en Automatización de procesos","alc":"-"},{"id":"P26-009","cc":"Enfoque en el Cliente","dir":"Servicio al Cliente","prog":null,"nom":"Disponibilizar servicios TOP 4","epic":"A. Nava","po":"Maria Soledad Rojas Villa","prio":null,"req":"Proyecto","treq":"Tácticos","est":"Consolidado Nuevo Proyecto","fatn":2026.0,"estti":null,"sow":"-","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"Si","cand":"No, se consolida en Automatización de procesos","alc":"-"},{"id":"P26-010","cc":"Enfoque en el Cliente","dir":"Servicio al Cliente","prog":null,"nom":"Vista 360 con Información de Recovery","epic":"A. Nava","po":"Maria Soledad Rojas Villa","prio":null,"req":"Proyecto","treq":"Tácticos","est":"Consolidado Nuevo Proyecto","fatn":2026.0,"estti":null,"sow":"-","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"Si","cand":"No, se consolida en Vista 360 Integral","alc":"-"},{"id":"P26-030","cc":"Continuidad Operativa","dir":"DGA Negocios y Canales","prog":null,"nom":"Liberación de biométricos ante estatus finales de solicitudes","epic":"S. Olivero","po":"Maria Del Carmen Carmona Lozano","prio":null,"req":"Continuidad operativa","treq":"Ajustes y mejoras menores","est":"Liberado","fatn":2026.0,"estti":"LIBERADO","sow":"2026-08-05","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"No","cand":"-","alc":null},{"id":"P26-040","cc":"Actualización Tecnológica y Ciberseguridad","dir":"TI","prog":null,"nom":"Upgrade SAP BPM/PO ver 7.3","epic":"M. Matus","po":"-","prio":null,"req":"Proyecto","treq":"Tácticos","est":"Liberado","fatn":2026.0,"estti":null,"sow":"-","ini":"-","fin":"-","m":{"Ene":"ejecucion","Feb":"ejecucion","Mar":null,"Abr":null,"May":null,"Jun":"concluido","Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":"Ene, Feb, Jun","ppto":"Si","cand":"Sí","alc":null},{"id":"P26-049","cc":"Actualización Tecnológica y Ciberseguridad","dir":"Dirección Canal Digital","prog":null,"nom":"Adaptación de la identidad gráfica de la PUC a la nueva identidad de la marca Consubanco","epic":"R. Cohen","po":"Cristian Antonio Rodriguez Hernandez","prio":null,"req":"Proyecto","treq":"Tácticos","est":"Liberado","fatn":2026.0,"estti":null,"sow":"-","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"Si","cand":"No","alc":null},{"id":"P26-025","cc":"Actualización Tecnológica y Ciberseguridad","dir":"Tesorería","prog":null,"nom":"Obtención de extractos bancarios de cuentas empresariales en Consubanco","epic":"C. Budar","po":"Lopez Garcia Emily Wendolin","prio":null,"req":"Proyecto","treq":"Tácticos","est":"Planeación 2027","fatn":2027.0,"estti":null,"sow":"-","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"Si","cand":"No","alc":null},{"id":"P26-027","cc":"Actualización Tecnológica y Ciberseguridad","dir":"Tesorería","prog":null,"nom":"Acceso al canal H2H de BBVA","epic":"C. Budar","po":"Lopez Garcia Emily Wendolin","prio":null,"req":"Proyecto","treq":"Tácticos","est":"Planeación 2027","fatn":2027.0,"estti":null,"sow":"-","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"Si","cand":"No","alc":null},{"id":"P26-028","cc":"Actualización Tecnológica y Ciberseguridad","dir":"Tesorería","prog":null,"nom":"Aplicativo de gestión de reembolsos","epic":"C. Budar","po":"Lopez Garcia Emily Wendolin","prio":null,"req":"Proyecto","treq":"Tácticos","est":"Planeación 2027","fatn":2027.0,"estti":null,"sow":"2026-07-31","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"Si","cand":"No","alc":null},{"id":"P26-074","cc":"Enfoque en el Cliente","dir":"DGA Negocios y Canales","prog":null,"nom":"Seguros y Asistencias en Venta Asistida - 2026","epic":"S. Olivero","po":"Maria Del Carmen Carmona Lozano","prio":null,"req":"Proyecto","treq":"Estratégico","est":"Liberado","fatn":2026.0,"estti":"PAUSA","sow":"-","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"Si","cand":"-","alc":null},{"id":"P26-076","cc":"Continuidad Operativa","dir":"DGA Negocios y Canales","prog":null,"nom":"Fusión de empresas","epic":"S. Olivero","po":"Maria Del Carmen Carmona Lozano","prio":null,"req":"Nuevo proyecto","treq":"Proyectos","est":"Liberado","fatn":2026.0,"estti":"LIBERADO","sow":"-","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":"concluido","Ago":"concluido","Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":"Jul, Ago","ppto":"No","cand":"-","alc":null},{"id":"P26-059","cc":"Actualización Tecnológica y Ciberseguridad","dir":"Jurídico","prog":null,"nom":"RECURSOS EXTERNOS INICIATIVAS 2026","epic":"G. Hernández M.","po":"-","prio":null,"req":"Proyecto","treq":"Regulatorio","est":"Proceso","fatn":"TBD","estti":null,"sow":"-","ini":"-","fin":"-","m":{"Ene":null,"Feb":"pordefinir","Mar":"pordefinir","Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":"Feb, Mar","ppto":"Si","cand":"No","alc":null},{"id":"P26-036","cc":"Actualización Tecnológica y Ciberseguridad","dir":"Datahub","prog":null,"nom":"Tellius","epic":"M. Matus","po":"-","prio":null,"req":"Proyecto","treq":"Modernización Tecnológica","est":"Proceso","fatn":2026.0,"estti":null,"sow":"-","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"Si","cand":"TBD","alc":null},{"id":"P26-038","cc":"Actualización Tecnológica y Ciberseguridad","dir":"Datahub","prog":null,"nom":"Bliss","epic":"M. Matus","po":"-","prio":null,"req":"Proyecto","treq":"Modernización Tecnológica","est":"Proceso","fatn":2026.0,"estti":null,"sow":"-","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"Si","cand":"TBD","alc":null},{"id":"P26-042","cc":"Nueva Generación de Plataformas Digitales","dir":"TI","prog":null,"nom":"Definición nvo stack tecnol para nueva generación de aplicaciones","epic":"M. Matus","po":"-","prio":null,"req":"Proyecto","treq":"Modernización Tecnológica","est":"Proceso","fatn":2026.0,"estti":null,"sow":"-","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"Si","cand":"TBD","alc":null},{"id":"P26-084","cc":"Continuidad Operativa","dir":"DGA Negocios y Canales","prog":null,"nom":"URL única en CNCA Interno previo a la baja de créditos","epic":"S. Olivero","po":"Maria Del Carmen Carmona Lozano","prio":null,"req":"Continuidad operativa","treq":"Ajustes y mejoras menores","est":"Cancelado","fatn":"N/A","estti":"BACKLOG","sow":"-","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"No","cand":"-","alc":null},{"id":"P26-044","cc":"Actualización Tecnológica y Ciberseguridad","dir":"Datahub","prog":null,"nom":"IA lab DH","epic":"M. Matus","po":"-","prio":null,"req":"Proyecto","treq":"Modernización Tecnológica","est":"Proceso","fatn":2026.0,"estti":null,"sow":"-","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"Si","cand":"TBD","alc":null},{"id":"P26-045","cc":"Actualización Tecnológica y Ciberseguridad","dir":"TI","prog":null,"nom":"Robustecimiento BKAYA 2026","epic":"M. Matus","po":"-","prio":null,"req":"Proyecto","treq":"Modernización Tecnológica","est":"Proceso","fatn":2026.0,"estti":null,"sow":"-","ini":"-","fin":"-","m":{"Ene":"ejecucion","Feb":"ejecucion","Mar":"ejecucion","Abr":"ejecucion","May":"ejecucion","Jun":"ejecucion","Jul":"ejecucion","Ago":"ejecucion","Sep":"ejecucion","Oct":"ejecucion","Nov":"ejecucion","Dic":"ejecucion"},"mact":"Ene, Feb, Mar, Abr, May, Jun, Jul, Ago, Sep, Oct, Nov, Dic","ppto":"Si","cand":"TBD","alc":null},{"id":"P26-046","cc":"Actualización Tecnológica y Ciberseguridad","dir":"TI","prog":null,"nom":"CRM Objetivo","epic":"M. Matus","po":"-","prio":null,"req":"Proyecto","treq":"Modernización Tecnológica","est":"Proceso","fatn":2026.0,"estti":null,"sow":"-","ini":"-","fin":"-","m":{"Ene":"ejecucion","Feb":"ejecucion","Mar":null,"Abr":null,"May":null,"Jun":"ejecucion","Jul":"ejecucion","Ago":"ejecucion","Sep":"ejecucion","Oct":"ejecucion","Nov":"ejecucion","Dic":"ejecucion"},"mact":"Ene, Feb, Jun, Jul, Ago, Sep, Oct, Nov, Dic","ppto":"Si","cand":"TBD","alc":null},{"id":"P26-047","cc":"Actualización Tecnológica y Ciberseguridad","dir":"TI","prog":null,"nom":"Content Manager Objetivo (Filenet)","epic":"M. Matus","po":"-","prio":null,"req":"Proyecto","treq":"Modernización Tecnológica","est":"Proceso","fatn":2026.0,"estti":null,"sow":"-","ini":"-","fin":"-","m":{"Ene":"ejecucion","Feb":"ejecucion","Mar":null,"Abr":null,"May":null,"Jun":"ejecucion","Jul":"ejecucion","Ago":"ejecucion","Sep":"ejecucion","Oct":"ejecucion","Nov":"ejecucion","Dic":"ejecucion"},"mact":"Ene, Feb, Jun, Jul, Ago, Sep, Oct, Nov, Dic","ppto":"Si","cand":"TBD","alc":null},{"id":"P26-048","cc":"Actualización Tecnológica y Ciberseguridad","dir":"TI","prog":null,"nom":"DR API CONNECT","epic":"M. Matus","po":"-","prio":null,"req":"Proyecto","treq":"Modernización Tecnológica","est":"Proceso","fatn":2026.0,"estti":null,"sow":"-","ini":"-","fin":"-","m":{"Ene":"ejecucion","Feb":"ejecucion","Mar":"ejecucion","Abr":"ejecucion","May":null,"Jun":null,"Jul":null,"Ago":"ejecucion","Sep":"ejecucion","Oct":"ejecucion","Nov":null,"Dic":null},"mact":"Ene, Feb, Mar, Abr, Ago, Sep, Oct","ppto":"Si","cand":"TBD","alc":null},{"id":"P26-052","cc":"Enfoque en el Cliente","dir":"Estrategia","prog":null,"nom":"Estrategia (Estudios mdo.)","epic":"R. Flores","po":"-","prio":null,"req":"Proyecto","treq":"Tácticos","est":"Proceso","fatn":2026.0,"estti":null,"sow":"-","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"Si","cand":"No","alc":null},{"id":"P26-063","cc":"Actualización Tecnológica y Ciberseguridad","dir":"TI","prog":null,"nom":"Implementación Middleware (Greenfield)","epic":"M. Matus","po":"-","prio":null,"req":"Proyecto","treq":"Modernización Tecnológica","est":"Proceso","fatn":2026.0,"estti":null,"sow":"-","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"Si","cand":"TBD","alc":null},{"id":"P26-097","cc":"Programa Lazos","dir":"Dirección Canal Digital","prog":null,"nom":"Comunicación Dinámica y Personalizada en PUC","epic":"R. Cohen","po":"Cristian Antonio Rodriguez Hernandez","prio":null,"req":"Proyecto","treq":"Tácticos","est":"Por sustituir","fatn":"N/A","estti":null,"sow":"-","ini":"-","fin":"-","m":{"Ene":null,"Feb":null,"Mar":null,"Abr":null,"May":null,"Jun":null,"Jul":null,"Ago":null,"Sep":null,"Oct":null,"Nov":null,"Dic":null},"mact":null,"ppto":"Si","cand":"TBD","alc":null}];
+
+/* ══════════════════════════════════════════════════════════════
+   PORTAFOLIO 2026–2027 · v17
+   Fuente única: INI106 (106 registros · hoja "Detalle de Iniciativas")
+   No se modifica PORTAFOLIO_DATA (usado por la sección Proyectos).
+   ══════════════════════════════════════════════════════════════ */
+
+const NI2_MESES = ['Ene','Feb','Mar','Abr','May','Jun','Jul','Ago','Sep','Oct','Nov','Dic'];
+const NI2_FASE_LABEL = { exploracion:'Exploración', estructuracion:'Estructuración', ejecucion:'Ejecución', concluido:'Concluido', pordefinir:'Por definir' };
+const NI2_FASE_COLOR = { exploracion:'#D9D9D9', estructuracion:'#FBBC04', ejecucion:'#4285F4', concluido:'#34A853', pordefinir:'#6A80A3' };
+
+function ni2Esc(v){
+  if (v === null || v === undefined) return '';
+  return String(v).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+}
+function ni2IsEmpty(v){
+  if (v === null || v === undefined) return true;
+  const s = String(v).trim();
+  return s === '' || s === '-';
+}
+function ni2NormSi(v){
+  if (ni2IsEmpty(v)) return false;
+  const s = String(v).trim().toLowerCase().replace(/í/g,'i');
+  return s === 'si';
+}
+function ni2FechaValida(v){ return !ni2IsEmpty(v) && /^\d{4}-\d{2}-\d{2}$/.test(String(v)); }
+function ni2Anio(v){ return ni2FechaValida(v) ? parseInt(String(v).slice(0,4),10) : null; }
+function ni2FmtFecha(v){
+  if (!ni2FechaValida(v)) return ni2IsEmpty(v) ? '—' : ni2Esc(v);
+  const [y,m,d] = v.split('-');
+  return `${d}/${m}/${y}`;
+}
+const NI2_CONTRADICT = /\btbd\b|\btdb\b|por revisar|falta definic|tentativ/i;
+const NI2_CONT2027 = /contin\w*.{0,30}2027|se traslada al 2027/i;
+
+/* ── Origen: Presupuestadas / Nuevas (campo "Proyecto presupuestado") ── */
+function ni2Origen(x){ return ni2NormSi(x.ppto) ? 'Presupuestadas' : 'Nuevas'; }
+
+/* ── Clasificación temporal para el calendario (no se infiere cierre por la fecha sola) ── */
+function ni2ClasifCalendario(x){
+  const alc = x.alc || '';
+  const contradictorio = NI2_CONTRADICT.test(alc);
+  const fy = ni2Anio(x.fin);
+  if (NI2_CONT2027.test(alc) || fy === 2027) return 'continua2027';
+  if (fy === 2026 && !contradictorio) return 'cierre2026';
+  return 'sindefinir';
+}
+
+/* ── Dataset derivado (solo campos calculados para visualización; no se altera el valor fuente) ── */
+const NI2_DATA = INI106.map(x => Object.assign({}, x, {
+  origen: ni2Origen(x),
+  finValida: ni2FechaValida(x.fin),
+  calClasif: ni2ClasifCalendario(x),
+}));
+
+/* ── QA silencioso en consola ── */
+(function ni2QA(){
+  const total = NI2_DATA.length;
+  const presup = NI2_DATA.filter(x => x.origen === 'Presupuestadas').length;
+  if (total !== 106) console.warn('[QA Portafolio] Total de iniciativas distinto de 106:', total);
+  if (presup !== 74) console.warn('[QA Portafolio] Presupuestadas distinto de 74:', presup);
+})();
+
+const NI2_GRUPO_FIN = ['Liberado','Cancelado'];
+const NI2_GRUPO_CAMBIO = ['Planeación 2027','Por sustituir','Consolidado Nuevo Proyecto'];
+const NI2_GRUPO_GESTION = ['Proceso','En Proceso','Ventanilla TI','Definición de Negocio'];
+const NI2_GRUPO_CONOCIDO = [...NI2_GRUPO_FIN, ...NI2_GRUPO_CAMBIO, ...NI2_GRUPO_GESTION];
+
+function ni2Unique(arr){ return [...new Set(arr.filter(v => v !== null && v !== undefined && v !== ''))].sort((a,b)=>String(a).localeCompare(String(b),'es')); }
+
+/* ── Modal de previsualización (reutiliza #modal existente) ── */
+function ni2DetailRow(x){
+  const originTag = x.origen === 'Presupuestadas'
+    ? '<span class="plan-chip pl-si">Presupuestada</span>'
+    : '<span class="plan-chip pl-no">Nueva</span>';
+  return `<div style="padding:10px 4px;border-bottom:1px solid var(--g100)">
+    <div style="display:flex;justify-content:space-between;gap:10px;align-items:flex-start">
+      <span style="font-weight:800;color:#1B355D;font-size:13px">${x.prio ? `<span class="prio-chip">Prio ${ni2Esc(x.prio)}</span> ` : ''}${ni2Esc(x.nom)}</span>
+      <span class="epill" style="background:var(--g100);color:var(--g700);white-space:nowrap">${ni2Esc(x.est)}</span>
+    </div>
+    <div style="display:flex;gap:7px;flex-wrap:wrap;margin-top:5px;align-items:center">
+      ${originTag}
+      <span class="plan-chip pl-tipo">${ni2Esc(x.treq)}</span>
+    </div>
+    <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:5px;font-size:11px;color:var(--g500);font-weight:600">
+      <span>${ni2Esc(x.cc) || '—'}</span>
+      <span>Epic: ${ni2Esc(x.epic) || '—'}</span>
+      <span style="color:${x.po ? 'var(--g500)' : 'var(--amarillo)'}">PO: ${ni2Esc(x.po) || 'Sin PO asignado'}</span>
+      ${x.sow ? `<span class="sow-hl">🤝 Entrega SOW: ${ni2FmtFecha(x.sow)}</span>` : ''}
+    </div>
+    ${x.alc ? `<div class="ni2-obs"><details><summary>Ver alcance / observaciones</summary><div class="ni2-obs-body">${ni2Esc(x.alc)}</div></details></div>` : ''}
+  </div>`;
+}
+/* Orden por prioridad para previsualizaciones del portafolio (Composición / Situación actual):
+   1) numéricas ascendentes (1,2,3…) 2) 0/vacío/guion/TBD/texto, en el orden en que aparecen 3) empate por nombre.
+   No muta la lista original ni afecta a los modales de HU/sprints (que usan otras funciones). */
+function ni2SortByPrioridad(items){
+  return [...items].sort((a, b) => {
+    const na = parseFloat(a.prio), nb = parseFloat(b.prio);
+    const aNum = !isNaN(na) && String(a.prio).trim() !== '';
+    const bNum = !isNaN(nb) && String(b.prio).trim() !== '';
+    if (aNum && bNum) { if (na !== nb) return na - nb; }
+    else if (aNum !== bNum) { return aNum ? -1 : 1; }
+    return String(a.nom||'').localeCompare(String(b.nom||''), 'es');
+  });
+}
+function ni2OpenModal(title, items){
+  const sorted = ni2SortByPrioridad(items);
+  document.getElementById('modalTitle').textContent = `${title} · ${sorted.length}`;
+  document.getElementById('modalBody').innerHTML = sorted.map(ni2DetailRow).join('') || '<div style="padding:18px;text-align:center;color:var(--g500)">Sin iniciativas.</div>';
+  document.getElementById('modal').classList.add('show');
+}
+function ni2OpenOrigenDetail(origen, treq){
+  const items = NI2_DATA.filter(x => x.origen === origen && (!treq || x.treq === treq));
+  ni2OpenModal(`${origen}${treq ? ' · ' + treq : ''}`, items);
+}
+function ni2OpenStatusDetail(status){
+  const items = status === '__ALL__' ? NI2_DATA : NI2_DATA.filter(x => x.est === status);
+  ni2OpenModal(status === '__ALL__' ? 'Portafolio completo' : status, items);
+}
+
+/* ══ COMPOSICIÓN (compCard) ══ */
+function renderCompCard(){
+  const total = NI2_DATA.length;
+  const presup = NI2_DATA.filter(x => x.origen === 'Presupuestadas');
+  const nuevas = NI2_DATA.filter(x => x.origen === 'Nuevas');
+  const byTreq = list => {
+    const map = {};
+    list.forEach(x => { const k = x.treq || 'Sin tipo'; (map[k] = map[k] || []).push(x); });
+    return Object.entries(map).sort((a,b)=>b[1].length-a[1].length);
+  };
+  const chip = (origen, treq, items) => `
+    <div class="ni2-chip" onclick="event.stopPropagation();ni2OpenOrigenDetail('${origen}','${String(treq).replace(/'/g,"\\'")}')" title="Ver iniciativas de ${ni2Esc(treq)}">
+      <b>${items.length}</b><span>${ni2Esc(treq)}</span>
+    </div>`;
+  const group = (label, cls, origen, items) => `
+    <div class="ni2-group ${cls}">
+      <div class="ni2-group-head" onclick="ni2OpenOrigenDetail('${origen}','')" title="Ver todas las iniciativas ${label}">
+        <span class="ni2-group-title">${items.length} ${label}</span>
+        <span class="ni2-group-pct">${total ? Math.round(items.length/total*100) : 0}%</span>
+      </div>
+      <div class="ni2-chips">${byTreq(items).map(([t,its]) => chip(origen, t, its)).join('')}</div>
+    </div>`;
+  let warn = '';
+  if (total !== 106 || presup.length !== 74) {
+    warn = `<div class="ni2-note" style="color:var(--amarillo);font-weight:700">⚠ El universo calculado no coincide con el esperado (106 iniciativas / 74 presupuestadas). Total real: ${total} · Presupuestadas real: ${presup.length}. Se muestra el cálculo real sin forzar cifras.</div>`;
+  }
+  document.getElementById('compCard').innerHTML = `
+    <div class="pv-title">Composición del Portafolio</div>
+    <div class="ni2-comp-grid">
+      <div class="ni2-total" onclick="ni2OpenStatusDetail('__ALL__')" title="Ver el portafolio completo">
+        <b>${total}</b><span>Iniciativas</span>
+      </div>
+      <div class="ni2-groups">
+        ${group('Presupuestadas', 'g-presup', 'Presupuestadas', presup)}
+        ${group('Nuevas', 'g-nuevas', 'Nuevas', nuevas)}
+      </div>
+    </div>
+    ${warn}`;
+}
+
+/* ══ SITUACIÓN ACTUAL (estadoCard) ══ */
+function renderEstadoCard(){
+  const total = NI2_DATA.length;
+  const cohortMini = items => {
+    const p = items.filter(x=>x.origen==='Presupuestadas').length;
+    const n = items.length - p;
+    return `<i style="background:var(--navy2)" title="Presupuestadas"></i>${p} <i style="background:var(--naranja2)" title="Nuevas"></i>${n}`;
+  };
+  const statusRow = (est) => {
+    const items = NI2_DATA.filter(x => x.est === est);
+    const n = items.length;
+    if (!n) return '';
+    const pct = Math.round(n/total*100);
+    return `<div class="ni2-status-row" onclick="ni2OpenStatusDetail('${est.replace(/'/g,"\\'")}')" title="Ver iniciativas · ${ni2Esc(est)}">
+      <span class="ni2-status-l">${ni2Esc(est)}</span>
+      <div class="ni2-status-bar"><div class="ni2-status-fill" style="width:${Math.max(pct,3)}%"></div></div>
+      <b class="ni2-status-n">${n}</b>
+      <span class="ni2-status-p">${pct}%</span>
+      <span class="ni2-status-coh">${cohortMini(items)}</span>
+    </div>`;
+  };
+  const nFin = NI2_DATA.filter(x => NI2_GRUPO_FIN.includes(x.est)).length;
+  const nCambio = NI2_DATA.filter(x => NI2_GRUPO_CAMBIO.includes(x.est)).length;
+  const nGestion = NI2_DATA.filter(x => NI2_GRUPO_GESTION.includes(x.est)).length;
+  const otros = ni2Unique(NI2_DATA.map(x=>x.est)).filter(e => !NI2_GRUPO_CONOCIDO.includes(e));
+  const nOtros = NI2_DATA.filter(x => otros.includes(x.est)).length;
+
+  const secHead = (label, n) => `<div class="ni2-status-sec"><span class="ni3-group-title">${label}</span><span class="ni3-group-meta">${n} · ${total?Math.round(n/total*100):0}%</span></div>`;
+
+  document.getElementById('estadoCard').innerHTML = `
+    <div class="ni3-estado-title">Situación actual del Portafolio</div>
+    <div class="ni3-origin-legend" role="group" aria-label="Leyenda de origen">
+      <span class="ni3-ol-item"><i class="ni3-ol-swatch" style="background:var(--navy2)" aria-hidden="true"></i>Presupuestadas</span>
+      <span class="ni3-ol-item"><i class="ni3-ol-swatch" style="background:var(--naranja2)" aria-hidden="true"></i>Nuevas</span>
+    </div>
+    <div class="seg-total" onclick="ni2OpenStatusDetail('__ALL__')"><b>${total}</b> iniciativas del portafolio</div>
+
+    ${secHead('Finalizadas o canceladas', nFin)}
+    ${NI2_GRUPO_FIN.map(statusRow).join('')}
+
+    ${secHead('Con cambio de destino o alcance', nCambio)}
+    ${NI2_GRUPO_CAMBIO.map(statusRow).join('')}
+
+    ${secHead('En gestión', nGestion)}
+    ${NI2_GRUPO_GESTION.map(statusRow).join('')}
+
+    ${otros.length ? secHead('Otros estatus', nOtros) + otros.map(statusRow).join('') : ''}`;
+}
+
+/* ══ CALENDARIO DE ATENCIÓN ══ */
+const NI2_CAL_DEFAULT = ['Ventanilla TI','Proceso','En Proceso'];
+const NI2_CAL_FILTERS = { epic:'', po:'', estatus:'' };
+
+function ni2InitCalFiltros(){
+  const opt = (id, arr, placeholder) => {
+    const el = document.getElementById(id);
+    if (!el) return;
+    el.innerHTML = `<option value="">${placeholder}</option>` + arr.map(v => `<option value="${String(v).replace(/"/g,'&quot;')}">${ni2Esc(v)}</option>`).join('');
+  };
+  opt('calFEpic', ni2Unique(NI2_DATA.map(x=>x.epic)), 'Todo Epic Owner');
+  opt('calFPO', ni2Unique(NI2_DATA.map(x=>x.po)), 'Todo Product Owner');
+  opt('calFEstatus', ni2Unique(NI2_DATA.map(x=>x.est)), 'Todo estatus');
+}
+function clearCalFilters(){
+  NI2_CAL_FILTERS.epic=''; NI2_CAL_FILTERS.po=''; NI2_CAL_FILTERS.estatus='';
+  document.getElementById('calFEpic').value='';
+  document.getElementById('calFPO').value='';
+  document.getElementById('calFEstatus').value='';
+  renderCalendario();
+}
+function ni2CalRemoveTag(key){ NI2_CAL_FILTERS[key]=''; document.getElementById('calF'+key.charAt(0).toUpperCase()+key.slice(1)).value=''; renderCalendario(); }
+
+/* Abrevia "Nombre(s) ApellidoPaterno ApellidoMaterno" -> "N. ApellidoPaterno", igual que el formato ya usado en Epic Owner.
+   Heurística: inicial de la primera palabra + penúltima palabra del nombre completo. Si el campo trae varios
+   nombres separados por salto de línea, se abrevia cada uno y se unen con " / ". Textos ya cortos (<=2 palabras)
+   o vacíos se devuelven tal cual. */
+function ni2AbbrevNombre(v){
+  if (ni2IsEmpty(v)) return '';
+  const one = s => {
+    const parts = s.trim().split(/\s+/);
+    if (parts.length <= 1) return s.trim();
+    if (parts.length === 2) return `${parts[0][0]}. ${parts[1]}`;
+    const paterno = parts[parts.length - 2];
+    return `${parts[0][0]}. ${paterno}`;
+  };
+  return String(v).split(/\n+/).map(s=>s.trim()).filter(Boolean).map(one).join(' / ');
+}
+function renderCalendario(){
+  NI2_CAL_FILTERS.epic = document.getElementById('calFEpic').value;
+  NI2_CAL_FILTERS.po = document.getElementById('calFPO').value;
+  NI2_CAL_FILTERS.estatus = document.getElementById('calFEstatus').value;
+
+  let base = NI2_DATA;
+  if (NI2_CAL_FILTERS.estatus) base = base.filter(x => x.est === NI2_CAL_FILTERS.estatus);
+  else base = base.filter(x => NI2_CAL_DEFAULT.includes(x.est));
+  if (NI2_CAL_FILTERS.epic) base = base.filter(x => x.epic === NI2_CAL_FILTERS.epic);
+  if (NI2_CAL_FILTERS.po) base = base.filter(x => x.po === NI2_CAL_FILTERS.po);
+
+  document.getElementById('calCount').textContent = `${base.length} iniciativas`;
+
+  const tags = [];
+  if (NI2_CAL_FILTERS.estatus) tags.push(['estatus', 'Estatus: '+NI2_CAL_FILTERS.estatus]);
+  else tags.push(['__default__', 'Por defecto: Ventanilla TI · Proceso · En Proceso']);
+  if (NI2_CAL_FILTERS.epic) tags.push(['epic', 'Epic: '+NI2_CAL_FILTERS.epic]);
+  if (NI2_CAL_FILTERS.po) tags.push(['po', 'PO: '+NI2_CAL_FILTERS.po]);
+  document.getElementById('calTags').innerHTML = tags.map(([k,label]) =>
+    `<span class="ni2-cal-tag">${ni2Esc(label)}${k!=='__default__' ? ` <i onclick="ni2CalRemoveTag('${k}')">✕</i>`:''}</span>`).join('');
+
+  document.getElementById('calLegend').innerHTML = `
+    <span><i style="background:${NI2_FASE_COLOR.exploracion}"></i>Exploración</span>
+    <span><i style="background:${NI2_FASE_COLOR.estructuracion}"></i>Estructuración</span>
+    <span><i style="background:${NI2_FASE_COLOR.ejecucion}"></i>Ejecución</span>
+    <span><i style="background:${NI2_FASE_COLOR.concluido}"></i>Concluido</span>
+    <span><i style="background:${NI2_FASE_COLOR.pordefinir}"></i>Por definir</span>`;
+
+  const hasColor = x => Object.values(x.m).some(v => v);
+  const sorted = [...base].sort((a,b) => {
+    const ca = hasColor(a) ? 0 : 1, cb = hasColor(b) ? 0 : 1;
+    if (ca !== cb) return ca - cb;
+    const av = a.finValida ? a.fin : '9999-99-99';
+    const bv = b.finValida ? b.fin : '9999-99-99';
+    return av.localeCompare(bv);
+  });
+  const fmtFin = x => ni2FechaValida(x.fin) ? `<b>${ni2FmtFecha(x.fin)}</b>` : '<span class="ni4-cal-tbd">TBD</span>';
+  const fmtComment = x => x.alc ? `<span class="ni4-cal-comment" title="${ni2Esc(x.alc)}">${ni2Esc(x.alc.length>140 ? x.alc.slice(0,140)+'…' : x.alc)}</span>` : '—';
+
+  document.getElementById('calTable').innerHTML = `
+    <div class="ni4-cal-row ni4-cal-hdr">
+      <span>Nombre iniciativa</span><span>Epic</span><span>PO</span><span>Año atención</span><span>Fecha inicio</span><span>Fecha fin</span>
+      ${NI2_MESES.map(m=>`<span style="text-align:center">${m}</span>`).join('')}
+      <span>Comentarios</span>
+    </div>
+    ${sorted.map(x => `
+    <div class="ni4-cal-row">
+      <span class="ni4-cal-name">${ni2Esc(x.nom)}</span>
+      <span>${ni2Esc(x.epic) || '—'}</span>
+      <span title="${ni2Esc(x.po)}">${ni2Esc(ni2AbbrevNombre(x.po)) || '—'}</span>
+      <span>${ni2IsEmpty(x.fatn) ? '—' : `<span class="ni4-cal-yr">${ni2Esc(x.fatn)}</span>`}</span>
+      <span>${ni2FmtFecha(x.ini)}</span>
+      <span>${fmtFin(x)}</span>
+      ${NI2_MESES.map(m => `<span class="ni2-cal-cell" style="background:${x.m[m]?NI2_FASE_COLOR[x.m[m]]:'transparent'}" title="${x.m[m]?NI2_FASE_LABEL[x.m[m]]:''}"></span>`).join('')}
+      ${fmtComment(x)}
+    </div>`).join('') || '<div class="ni-empty" style="padding:20px;text-align:center;color:var(--g500)">Sin iniciativas que coincidan con los filtros.</div>'}
+    `;
+}
+
+/* ══ CLASIFICACIÓN DE INICIATIVAS (distAcc) · agrupa por línea (Clasificación Consejo) o por estatus ══ */
+let DIST_MODE = 'categoria';
+function setDistMode(m){
+  DIST_MODE = m;
+  document.querySelectorAll('.dm-btn').forEach(b => b.classList.remove('active'));
+  const btn = document.getElementById('dm_' + m);
+  if (btn) btn.classList.add('active');
+  ni3RenderClasificacion();
+}
+const NI2_CC_COLOR = {};
+const NI2_PALETTE = ['#1B355D','#00788A','#7DACE3','var(--naranja)','#495E7E','#A4AEBF','#5C2D8C'];
+function ni2CcColor(cc){
+  if (!NI2_CC_COLOR[cc]) NI2_CC_COLOR[cc] = NI2_PALETTE[Object.keys(NI2_CC_COLOR).length % NI2_PALETTE.length];
+  return NI2_CC_COLOR[cc];
+}
+function iniCardHTML(x){
+  const [bg, fg] = PORT_STATUS_COLORS[x.est] || ['var(--g100)','var(--g700)'];
+  const cc = ni2CcColor(x.cc || 'Otros');
+  const originTag = x.origen === 'Presupuestadas'
+    ? '<span class="plan-tag pt-si">✓ Presupuestada</span>'
+    : '<span class="plan-tag pt-no">Nueva</span>';
+  return `<div class="ini-card ini3" style="border-left-color:${cc}">
+    <div class="i3a">
+      <h4 class="ini-name">${ni2Esc(x.nom)}</h4>
+      <div class="i3a-r">
+        <span class="ini2-treq" style="color:${cc};border-color:${cc}">${ni2Esc(x.treq)}</span>
+        <span class="epill" style="background:${bg};color:${fg}">${ni2Esc(x.est)}</span>
+        ${originTag}
+      </div>
+    </div>
+    <div class="i3b">
+      <div class="i3b-l">
+        <div class="i2f"><span class="im-l">Epic Owner</span><b class="im-v">${ni2Esc(x.epic) || '—'}</b></div>
+        <div class="i2f"><span class="im-l">Product Owner</span><b class="im-v"${x.po ? '' : ' style="color:var(--amarillo)"'}>${ni2Esc(x.po) || 'Sin PO asignado'}</b></div>
+        <div class="i2f"><span class="im-l">Clasificación</span><b class="im-v">${ni2Esc(x.cc) || '—'}</b></div>
+      </div>
+      <div class="i3b-r">
+        <div class="i2f"><span class="im-l">Priorización</span><b class="im-v i3-big">${ni2Esc(x.prio) || '-'}</b></div>
+        <div class="i2f"><span class="im-l">Entrega SOW</span><b class="im-v${x.sow?' sow-hl':''}">${ni2FmtFecha(x.sow)}</b></div>
+      </div>
+    </div>
+    ${x.alc ? `<div class="ni2-obs"><details><summary>Alcance / observaciones</summary><div class="ni2-obs-body">${ni2Esc(x.alc)}</div></details></div>` : ''}
+  </div>`;
+}
+/* ══ Pestaña "Clasificación de iniciativas" · solo agrupaciones con cantidad; el clic navega a Detalle ══ */
+function ni3RenderClasificacion(){
+  const total = NI2_DATA.length;
+  const map = {};
+  if (DIST_MODE === 'categoria') {
+    NI2_DATA.forEach(x => { const k = x.cc || 'Otros'; (map[k] = map[k] || []).push(x); });
+  } else {
+    NI2_DATA.forEach(x => { const k = x.est || 'Sin estatus'; (map[k] = map[k] || []).push(x); });
+  }
+  const groups = Object.entries(map).sort((a,b) => b[1].length - a[1].length);
+  const maxN = Math.max(...groups.map(([,items])=>items.length), 1);
+
+  document.getElementById('distGroups').innerHTML = groups.map(([name, items]) => {
+    const n = items.length, pct = Math.round(n / total * 100);
+    const presupN = items.filter(x=>x.origen==='Presupuestadas').length;
+    const modeKey = DIST_MODE === 'categoria' ? 'cc' : 'estatus';
+    return `<div class="ni3-clas-row" onclick="ni3AbrirDetalleDesdeClasificacion('${modeKey}','${name.replace(/'/g,"\\'")}')" title="Ver estas iniciativas en Detalle">
+      <span class="ni3-clas-name">${ni2Esc(name)}</span>
+      <div class="ni3-clas-bar"><div class="ni3-clas-fill" style="width:${Math.max(n/maxN*100,4)}%;background:${DIST_MODE==='categoria'?ni2CcColor(name):'var(--teal)'}"></div></div>
+      <div style="text-align:right"><b class="ni3-clas-n">${n}</b><div style="font-size:10px;color:var(--g500);font-weight:700">${pct}% · ${presupN} presup. · ${n-presupN} nuevas</div></div>
+      <span class="ni3-clas-arrow">›</span>
+    </div>`;
+  }).join('');
+}
+
+/* ══ Pestaña "Detalle de iniciativas" · tarjetas, con filtro opcional heredado de Clasificación ══ */
+const NI3_DETAIL_FILTER = { mode:'', value:'' };
+function ni3AbrirDetalleDesdeClasificacion(mode, value){
+  NI3_DETAIL_FILTER.mode = mode; NI3_DETAIL_FILTER.value = value;
+  ni3RenderDetalle();
+  ni3ShowTab('det');
+}
+function ni3ClearDetalleFiltro(){
+  NI3_DETAIL_FILTER.mode = ''; NI3_DETAIL_FILTER.value = '';
+  ni3RenderDetalle();
+}
+function ni3RenderDetalle(){
+  let items = NI2_DATA;
+  const bar = document.getElementById('detFilterBar');
+  const label = document.getElementById('detFilterLabel');
+  if (NI3_DETAIL_FILTER.mode === 'cc') items = items.filter(x => (x.cc||'Otros') === NI3_DETAIL_FILTER.value);
+  else if (NI3_DETAIL_FILTER.mode === 'estatus') items = items.filter(x => (x.est||'Sin estatus') === NI3_DETAIL_FILTER.value);
+  if (NI3_DETAIL_FILTER.mode) {
+    bar.style.display = 'flex';
+    label.innerHTML = `Filtrando por <b>${NI3_DETAIL_FILTER.mode==='cc'?'línea':'estatus'}: ${ni2Esc(NI3_DETAIL_FILTER.value)}</b> · ${items.length} iniciativa${items.length===1?'':'s'}`;
+  } else {
+    bar.style.display = 'none';
+  }
+  document.getElementById('distDetalle').innerHTML = `<div class="ini-grid">${ni2SortByPrioridad(items).map(iniCardHTML).join('')}</div>` || '';
+}
+
+/* ══ BASE GENERAL DE INICIATIVAS (portTableAcc) ══ */
+function clearPortFilters(){
+  ['pfPortCat','pfPortEstatus','pfPrio','pfEpic','pfPlan','pfPO','pfSort'].forEach(id => { const el=document.getElementById(id); if(el) el.value=''; });
+  document.getElementById('portSearch').value = '';
+  renderPortTable();
+}
+function renderPortTable(){
+  const cat = document.getElementById('pfPortCat').value;
+  const est = document.getElementById('pfPortEstatus').value;
+  const q = (document.getElementById('portSearch').value || '').toLowerCase();
+  const prioF = document.getElementById('pfPrio').value;
+  const poF = document.getElementById('pfPO').value;
+  const epicF = document.getElementById('pfEpic').value;
+  const planF = document.getElementById('pfPlan').value;
+  const sortF = document.getElementById('pfSort').value;
+
+  let filtered = NI2_DATA.filter(x =>
+    (!cat || x.treq === cat) &&
+    (!est || x.est === est) &&
+    (!prioF || (prioF === '__none__' ? ni2IsEmpty(x.prio) : String(x.prio) === prioF)) &&
+    (!poF || (poF === '__none__' ? ni2IsEmpty(x.po) : x.po === poF)) &&
+    (!epicF || x.epic === epicF) &&
+    (!planF || (planF === 'SI' ? x.origen === 'Presupuestadas' : x.origen === 'Nuevas')) &&
+    (!q || [x.nom, x.epic||'', x.po||'', x.cc||'', x.alc||''].join(' ').toLowerCase().includes(q))
+  );
+  const sortPrio = (arr, dir) => [...arr].sort((a,b) => {
+    const na = parseFloat(a.prio), nb = parseFloat(b.prio);
+    const ka = isNaN(na) ? (a.prio ? 1 : 2) : 0, kb = isNaN(nb) ? (b.prio ? 1 : 2) : 0;
+    if (ka !== kb) return ka - kb;
+    if (ka === 0) return dir === 'asc' ? na - nb : nb - na;
+    return 0;
+  });
+  if (sortF) filtered = sortPrio(filtered, sortF);
+
+  document.getElementById('portTableBody').innerHTML = filtered.map(x => {
+    const [bg, fg] = PORT_STATUS_COLORS[x.est] || ['var(--g100)','var(--g700)'];
+    const origenTag = x.origen === 'Presupuestadas' ? '<span class="ini-cat" style="background:rgba(27,42,74,.09);color:var(--navy)">Presupuestada</span>' : '<span class="ini-cat" style="background:rgba(0,120,138,.12);color:var(--teal)">Nueva</span>';
+    return `<div class="port-table-row" style="flex-direction:column;align-items:flex-start;gap:4px">
+      <div style="display:grid;grid-template-columns:1fr 160px 130px 110px;gap:8px;width:100%;align-items:center">
+        <span style="font-weight:600;color:var(--navy)">${ni2Esc(x.nom)} ${x.prio ? `<span class="prio-chip">Prio ${ni2Esc(x.prio)}</span>`:''} ${origenTag}</span>
+        <span style="font-size:11px;color:var(--g500)">${ni2Esc(x.treq)}</span>
+        <span style="font-size:11px">${ni2Esc(x.epic)}</span>
+        <span><span class="epill" style="background:${bg};color:${fg}">${ni2Esc(x.est)}</span></span>
+      </div>
+      <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:2px">
+        <span style="font-size:9.5px;color:${x.po?'var(--g500)':'var(--amarillo)'};font-weight:700">PO: ${ni2Esc(x.po) || 'Sin PO asignado'}</span>
+        ${x.sow ? `<span class="sow-hl" style="font-size:9.5px;font-weight:700">🤝 Entrega SOW: ${ni2FmtFecha(x.sow)}</span>` : ''}
+      </div>
+    </div>`;
+  }).join('') || '<div style="padding:18px;text-align:center;color:var(--g500)">Sin resultados</div>';
+  document.getElementById('portCount').textContent = `${filtered.length} de ${NI2_DATA.length} iniciativas`;
+  const h2 = document.getElementById('portCountHead');
+  if (h2) h2.textContent = NI2_DATA.length + ' iniciativas';
+}
+
+/* ══ Orquestador de inicialización del Portafolio ══ */
+/* ══ Navegación secundaria por pestañas (Calendario / Clasificación / Detalle / Base) ══ */
+const NI3_TABS = ['cal','clas','det','base','epic'];
+function ni3ShowTab(tab){
+  NI3_TABS.forEach(t => {
+    const panel = document.getElementById('panel_' + t);
+    const btn = document.getElementById('tabBtn_' + t);
+    const active = t === tab;
+    if (panel) panel.style.display = active ? 'block' : 'none';
+    if (btn) { btn.classList.toggle('active', active); btn.setAttribute('aria-selected', active ? 'true' : 'false'); }
+  });
+}
+
+/* ══ Resumen por Epic Owner (pivote Epic Owner × Estatus portafolio) ══ */
+function ni3EpicColumnas(){
+  // Mismo orden y agrupación usada en Situación actual del Portafolio
+  const presentes = est => NI2_DATA.some(x => x.est === est);
+  const otros = ni2Unique(NI2_DATA.map(x=>x.est)).filter(e => !NI2_GRUPO_CONOCIDO.includes(e));
+  return [
+    ...NI2_GRUPO_FIN.filter(presentes).map(e => ({est:e, grp:'cerrado'})),
+    ...NI2_GRUPO_CAMBIO.filter(presentes).map(e => ({est:e, grp:'cambio'})),
+    ...NI2_GRUPO_GESTION.filter(presentes).map(e => ({est:e, grp:'gestion'})),
+    ...otros.map(e => ({est:e, grp:'cambio'})),
+  ];
+}
+function ni3OpenEpicEstatusDetail(epic, estatus){
+  let items = NI2_DATA;
+  if (epic !== '__ALL__') items = items.filter(x => x.epic === epic);
+  if (estatus !== '__ALL__') items = items.filter(x => x.est === estatus);
+  const title = epic === '__ALL__' && estatus === '__ALL__' ? 'Portafolio completo'
+    : epic === '__ALL__' ? `Todos los Epic Owner · ${estatus}`
+    : estatus === '__ALL__' ? `${epic} · Total`
+    : `${epic} · ${estatus}`;
+  ni2OpenModal(title, items);
+}
+function ni3RenderResumenEpic(){
+  const total = NI2_DATA.length;
+  const cols = ni3EpicColumnas();
+  const epics = ni2Unique(NI2_DATA.map(x=>x.epic).filter(e=>!ni2IsEmpty(e)));
+  const rows = epics.map(epic => {
+    const items = NI2_DATA.filter(x => x.epic === epic);
+    const byEst = {};
+    cols.forEach(c => byEst[c.est] = items.filter(x => x.est === c.est).length);
+    return { epic, items, byEst, tot: items.length };
+  }).sort((a,b) => b.tot - a.tot);
+
+  const grpCls = g => g==='cerrado' ? 'ni5-col-cerrado' : g==='gestion' ? 'ni5-col-gestion' : 'ni5-col-cambio';
+  const grpThCls = g => g==='cerrado' ? 'ni5-th-cerrado' : g==='gestion' ? 'ni5-th-gestion' : 'ni5-th-cambio';
+
+  const thead = `<tr>
+    <th style="text-align:left">Epic Owner</th>
+    <th>Total</th>
+    ${cols.map(c => `<th class="${grpThCls(c.grp)}">${ni2Esc(c.est)}</th>`).join('')}
+    <th>% portafolio</th>
+  </tr>`;
+
+  const tbody = rows.map(r => `<tr>
+    <td class="ni5-epic-name" onclick="ni3OpenEpicEstatusDetail('${r.epic.replace(/'/g,"\\'")}','__ALL__')" title="Ver todas las iniciativas de ${ni2Esc(r.epic)}">${ni2Esc(r.epic)}</td>
+    <td class="ni5-total-col" onclick="ni3OpenEpicEstatusDetail('${r.epic.replace(/'/g,"\\'")}','__ALL__')">${r.tot}</td>
+    ${cols.map(c => {
+      const n = r.byEst[c.est];
+      return n
+        ? `<td class="ni5-cell ${grpCls(c.grp)}" onclick="ni3OpenEpicEstatusDetail('${r.epic.replace(/'/g,"\\'")}','${c.est.replace(/'/g,"\\'")}')" title="${ni2Esc(r.epic)} · ${ni2Esc(c.est)}">${n}</td>`
+        : `<td class="ni5-cell ni5-zero ${grpCls(c.grp)}">0</td>`;
+    }).join('')}
+    <td class="ni5-pct-col">${total ? (r.tot/total*100).toFixed(1) : '0.0'}%</td>
+  </tr>`).join('');
+
+  const totalRow = (() => {
+    const cellsTotal = cols.map(c => NI2_DATA.filter(x => x.est === c.est).length);
+    return `<tr class="ni5-total-row">
+      <td class="ni5-epic-name" onclick="ni3OpenEpicEstatusDetail('__ALL__','__ALL__')">TOTAL</td>
+      <td onclick="ni3OpenEpicEstatusDetail('__ALL__','__ALL__')">${total}</td>
+      ${cols.map((c,i) => `<td onclick="ni3OpenEpicEstatusDetail('__ALL__','${c.est.replace(/'/g,"\\'")}')">${cellsTotal[i]}</td>`).join('')}
+      <td>100.0%</td>
+    </tr>`;
+  })();
+
+  document.getElementById('epicTable').innerHTML = `<table class="ni5-epic-table"><thead>${thead}</thead><tbody>${tbody}${totalRow}</tbody></table>`;
+}
+
+function initPortafolio(){
+  renderResumenPMO(); // presupuesto (pptoCard / decisionCard) — sin cambios
+  renderCompCard();
+  renderEstadoCard();
+  ni2InitCalFiltros();
+  renderCalendario();
+  ni3RenderClasificacion();
+  ni3RenderDetalle();
+  ni3RenderResumenEpic();
+  ni3ShowTab('epic');
+
+  const cats = ni2Unique(NI2_DATA.map(x => x.treq));
+  const opt = (sid, arr, ph) => { const s=document.getElementById(sid); if(!s) return; s.innerHTML = `<option value="">${ph}</option>` + arr.map(v=>`<option>${ni2Esc(v)}</option>`).join(''); };
+  opt('pfPortCat', cats, 'Todos los tipos (PMO)');
+  const presentEst = NI2_GRUPO_CONOCIDO.filter(s2 => NI2_DATA.some(x => x.est === s2));
+  const otrosEst = ni2Unique(NI2_DATA.map(x=>x.est)).filter(e => !NI2_GRUPO_CONOCIDO.includes(e));
+  opt('pfPortEstatus', [...presentEst, ...otrosEst], 'Todos los estatus');
+  const prios = ni2Unique(NI2_DATA.map(x => x.prio)).sort((a,b) => {
+    const na = parseFloat(a), nb = parseFloat(b);
+    if (!isNaN(na) && !isNaN(nb)) return na-nb;
+    if (!isNaN(na)) return -1; if (!isNaN(nb)) return 1;
+    return String(a).localeCompare(String(b));
+  });
+  const selP = document.getElementById('pfPrio');
+  if (selP) selP.innerHTML = '<option value="">Todas las priorizaciones</option>' + prios.map(x=>`<option>${ni2Esc(x)}</option>`).join('') + '<option value="__none__">Sin priorización</option>';
+  const selPO = document.getElementById('pfPO');
+  if (selPO) selPO.innerHTML = '<option value="">Todos los Product Owners</option>' + ni2Unique(NI2_DATA.map(x=>x.po)).map(x=>`<option>${ni2Esc(x)}</option>`).join('') + '<option value="__none__">Sin PO asignado</option>';
+  opt('pfEpic', ni2Unique(NI2_DATA.map(x=>x.epic)), 'Todos los Epic Owners');
+
+  renderPortTable();
+}
+
+
 function fmt(n) { return (Math.round(n * 10) / 10).toLocaleString('es-MX'); }
 function safe(v) { return (v ?? '').toString(); }
 function showSection(id, btn) {
@@ -1087,7 +1842,6 @@ function filterData(allRows, type, line, cell, status, search) {
 }
 
 
-const PORT_STATUS_ORDER = ['Liberado','Cancelado','Consolidado Nuevo Proyecto','Por sustituir','Planeación 2027','En Proceso','Ventanilla TI','Definición de Negocio'];
 const PORT_STATUS_COLORS = {
   'Liberado':['rgba(27,138,90,.12)','var(--verde)'],
   'Cancelado':['rgba(107,114,128,.14)','#4B5563'],
@@ -1097,106 +1851,8 @@ const PORT_STATUS_COLORS = {
   'Ventanilla TI':['rgba(180,83,9,.12)','var(--amarillo)'],
   'Definición de Negocio':['rgba(231,83,1,.10)','var(--naranja)'],
   'Planeación 2027':['rgba(73,94,126,.12)','#495E7E']};
-const PORT_STATUS_SOLID = {
-  'Liberado':'var(--verde)','Cancelado':'#9CA3AF','Consolidado Nuevo Proyecto':'var(--celeste)',
-  'Por sustituir':'var(--rojo)','En Proceso':'var(--teal)','Ventanilla TI':'var(--amarillo)',
-  'Definición de Negocio':'var(--naranja)','Planeación 2027':'#495E7E'};
-
-/* Colorimetría por tipo de requerimiento */
-function catColor(p) {
-  if (p.treq === 'Programa Lazos') return '#7DACE3';
-  if (p.treq === 'Regulatorio') return 'var(--naranja)';
-  if (p.treq === 'Continuidad Operativa') return '#A4AEBF';
-  return p.plan === 'SI' ? '#1B355D' : '#495E7E';
-}
-const CAT_LEGEND = [
-  ['#1B355D','Proyectos autorizados en la planeación'],
-  ['#495E7E','Nuevos proyectos 2026'],
-  ['#7DACE3','Proyectos Lazos'],
-  ['var(--naranja)','Regulatorios'],
-  ['#A4AEBF','Continuidad Operativa'],
-];
-
-/* ══ CAPA 1 · FUNNEL EJECUTIVO DEL PORTAFOLIO ══ */
-const PMO_GROUPS = [
-  {id:'LIB', label:'Liberados', color:'#008337', subs:[['Liberado','Liberado']]},
-  {id:'CER', label:'Cerrados', color:'#55607A', subs:[['Cancelado','Cancelado'],['Sustituidos','Sustituidos'],['A sustituir','A sustituir']]},
-  {id:'P27', label:'Planeación 2027', color:'#495E7E', subs:[['Planeación 2027','Planeación 2027']]},
-  {id:'PEN', label:'Pendiente Def. de Negocio 2026', color:'#E85301', subs:[['Definición de Negocio','Definición de Negocio']]},
-  {id:'GES', label:'En proceso (gestión)', color:'#00788A', subs:[['En proceso','En proceso de ejecución'],['Ventanilla TI','Ventanilla TI']]},
-];
-const PMO_TIPOS = [['P','Proyecto presupuestado','tp-p'],['N','Nuevos proyectos','tp-alt'],['R','Nuevo Regulatorio','tp-alt'],['C','Continuidad Operativa','tp-alt']];
-
-function pmoCount(tp, sub) { return PORTAFOLIO_DATA.filter(x => x.tp === tp && x.sub === sub).length; }
-function groupItems(g, tp) { return PORTAFOLIO_DATA.filter(x => (tp === '*' || x.tp === tp) && g.subs.some(s2 => s2[0] === x.sub)); }
-
-/* Días hábiles transcurridos desde la fecha de entrega del SOW (calculado al día en que se abre el tablero) */
-function detailRow(x) {
-  const [bg, fg] = PORT_STATUS_COLORS[x.estatus] || ['var(--g100)','var(--g700)'];
-  const prio = x.prio ? `Prio ${x.prio}` : 'Sin priorización';
-  const nameColor = '#1B355D'; /* título ejecutivo en azul profundo; la autorización se distingue por el chip */
-  const planChip = x.plan === 'SI' ? '<span class="plan-chip pl-si">✓ Autorizado en planeación</span>'
-                 : '<span class="plan-chip pl-no">✗ No autorizado en la planeación</span>';
-  const tipoIni = x.treq || 'Proyecto';
-  return `<div style="padding:10px 4px;border-bottom:1px solid var(--g100)">
-    <div style="display:flex;justify-content:space-between;gap:10px;align-items:flex-start">
-      <span style="font-weight:800;color:${nameColor};font-size:13px"><span class="prio-chip${x.prio ? '' : ' pc-none'}">${prio}</span> ${x.iniciativa}</span>
-      <span class="epill" style="background:${bg};color:${fg};white-space:nowrap">${x.estatus}</span>
-    </div>
-    <div style="display:flex;gap:7px;flex-wrap:wrap;margin-top:5px;align-items:center">
-      ${planChip}
-      <span class="plan-chip pl-tipo">${tipoIni}</span>
-    </div>
-    <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:5px;font-size:11px;color:var(--g500);font-weight:600">
-      <span>${x.clasificacion || '—'}</span>
-      <span>Epic: ${x.responsable || '—'}</span>
-      <span style="color:${x.po ? 'var(--g500)' : 'var(--amarillo)'}">PO: ${x.po || 'Sin PO asignado'}</span>
-      
-      ${x.sow ? `<span class="sow-hl">🤝 Entrega SOW: ${x.sow}</span>` : ''}
-    </div>
-    ${x.sugerencia ? `<div style="font-size:10.5px;color:var(--teal);font-weight:600;margin-top:4px">💡 ${x.sugerencia.replace(/\n/g,' · ')}</div>` : ''}
-    ${x.nota ? `<div style="font-size:10.5px;color:var(--g700);font-style:italic;margin-top:3px">💬 ${x.nota}</div>` : ''}
-  </div>`;
-}
-
-function openBucketDetail(tp, sub) {
-  const items = PORTAFOLIO_DATA.filter(x => (tp === '*' || x.tp === tp) && x.sub === sub);
-  const tl = tp === '*' ? 'Portafolio' : (PMO_TIPOS.find(t => t[0] === tp) || ['',''])[1];
-  const sl = sub;
-  document.getElementById('modalTitle').textContent = `${tl} · ${sl} · ${items.length}`;
-  document.getElementById('modalBody').innerHTML = items.map(detailRow).join('') || '<div style="padding:18px;text-align:center;color:var(--g500)">Sin proyectos.</div>';
-  document.getElementById('modal').classList.add('show');
-}
-
-function openMacroDetail(id) {
-  let items, title;
-  if (id === 'ALL') { items = PORTAFOLIO_DATA; title = 'Portafolio completo'; }
-  else { const g = PMO_GROUPS.find(x => x.id === id); items = groupItems(g, '*'); title = g.label; }
-  document.getElementById('modalTitle').textContent = `${title} · ${items.length} proyecto${items.length === 1 ? '' : 's'}`;
-  document.getElementById('modalBody').innerHTML = items.map(detailRow).join('');
-  document.getElementById('modal').classList.add('show');
-}
-
 const MOTIVO_ORDEN = ['Ejecutado','Cancelado','No se ejecutará (en PUC)','No se ejecutará en 2026','Alcance en nuevo proyecto','Consolidado en nuevo proyecto','Nuevo Caso de Negocio'];
 const mdp = n => (n/1e6).toLocaleString('es-MX',{minimumFractionDigits:2,maximumFractionDigits:2});
-
-function openIncDetail(t) {
-  const items = PORTAFOLIO_DATA.filter(x => x.plan !== 'SI' && x.treq === t);
-  document.getElementById('modalTitle').textContent = `Incorporados 2026 · ${t} · ${items.length}`;
-  document.getElementById('modalBody').innerHTML = items.map(detailRow).join('');
-  document.getElementById('modal').classList.add('show');
-}
-
-function openCompDetail(kind) {
-  let items, title;
-  if (kind === 'P') { items = PORTAFOLIO_DATA.filter(x => x.plan === 'SI'); title = 'Planeación 2025-2026'; }
-  else if (kind === 'INC') { items = PORTAFOLIO_DATA.filter(x => x.plan !== 'SI'); title = 'Incorporadas 2026'; }
-  else if (kind === 'ALL') { items = PORTAFOLIO_DATA; title = 'Iniciativas 2025-2026'; }
-  else { items = PORTAFOLIO_DATA.filter(x => x.treq === kind); title = kind; }
-  document.getElementById('modalTitle').textContent = `${title} · ${items.length}`;
-  document.getElementById('modalBody').innerHTML = items.map(detailRow).join('');
-  document.getElementById('modal').classList.add('show');
-}
 
 function openLiberarDetail(motivo) {
   const items = LIBERAR.filter(x => !motivo || x[1] === motivo);
@@ -1256,43 +1912,7 @@ function openEjercidoDetail() {
 }
 
 function renderBloques() {
-  const total = PORTAFOLIO_DATA.length;
-  const confN = PORTAFOLIO_DATA.filter(x => x.conf).length;
-  const partidaN = total - confN;
-  const nP = PORTAFOLIO_DATA.filter(x => x.tp==='P').length;
-  const nPproj = PORTAFOLIO_DATA.filter(x => x.tp==='P' && x.conf).length;
-  const nN = PORTAFOLIO_DATA.filter(x => x.tp==='N').length;
-  const nC = PORTAFOLIO_DATA.filter(x => x.tp==='C').length;
-  const nR = PORTAFOLIO_DATA.filter(x => x.tp==='R').length;
-  const pct = n => Math.round(n / confN * 100);
-
-  // 1 · Composición
-  const nIT = t => PORTAFOLIO_DATA.filter(x => x.plan !== 'SI' && x.treq === t).length;
-  document.getElementById('compCard').innerHTML = `
-    <div class="pv-title">1 · Composición del Portafolio</div>
-    <div class="comp-grid2">
-      <div class="comp-box cb-navy comp-solo" onclick="openCompDetail('P')" title="Ver los 74 proyectos autorizados en la planeación">
-        <span class="cb-l">Planeación 2025-2026</span>
-        <span class="cb-n">${nP}</span>
-        <span class="cb-s">proyectos</span>
-      </div>
-      <div class="comp-col">
-        <div class="comp-box cb-teal" onclick="openCompDetail('INC')" title="Ver las incorporadas 2026"><span class="cb-l">Incorporados en 2026</span><span class="cb-n">${total - nP}</span><span class="cb-s">no autorizados en la planeación</span></div>
-        <div class="comp-kpis comp-inc">
-          <div class="comp-kpi" style="border-top-color:#7DACE3" onclick="openIncDetail('Programa Lazos')"><span class="ckn" style="color:#5B8CC9">${nIT('Programa Lazos')}</span><span class="ckl">Lazos</span></div>
-          <div class="comp-kpi" style="border-top-color:#495E7E" onclick="openIncDetail('Proyecto')"><span class="ckn" style="color:#495E7E">${nIT('Proyecto')}</span><span class="ckl">Proyectos</span></div>
-          <div class="comp-kpi" style="border-top-color:#A4AEBF" onclick="openIncDetail('Continuidad Operativa')"><span class="ckn" style="color:#6B7280">${nIT('Continuidad Operativa')}</span><span class="ckl">Continuidad</span></div>
-          <div class="comp-kpi" style="border-top-color:var(--naranja)" onclick="openIncDetail('Regulatorio')"><span class="ckn" style="color:var(--naranja)">${nIT('Regulatorio')}</span><span class="ckl">Regulatorios</span></div>
-        </div>
-      </div>
-    </div>
-    <div class="comp-total2" onclick="openCompDetail('ALL')" title="Ver todas las iniciativas">
-      <span class="ct2-sum">${nP} + ${total - nP} =</span>
-      <b class="ct2-n">${total}</b>
-      <span class="ct2-l">iniciativas totales</span>
-    </div>`;
-
-  // 2 · Presupuesto 2026 · funnel de montos (PDF · universo Proyectos)
+  // 2 · Presupuesto 2026 · funnel de montos (PDF · universo Proyectos) — sin cambios
   const F = FIN;
   const PPTO_FUNL = [
     ['Presupuesto autorizado', F.autorizado, 'var(--navy)', ''],
@@ -1310,51 +1930,7 @@ function renderBloques() {
       </div>`).join('')}</div>
 `;
 
-  // 1.1 · Detalle del Portafolio · segmentación con cohortes (planeado vs incorporado)
-  const cnt = id => groupItems(PMO_GROUPS.find(g => g.id === id), '*').length;
-  const cohP = PORTAFOLIO_DATA.filter(x => x.plan === 'SI').length;
-  const cohI = confN - cohP;
-  const subSplit = sub => { const it = PORTAFOLIO_DATA.filter(x => x.sub === sub); const a = it.filter(x => x.plan === 'SI').length; return [a, it.length - a, it.length]; };
-  const vs = subSplit('Ventanilla TI'), es = subSplit('En proceso');
-  const nCerradas = cnt('LIB') + cnt('CER') + cnt('P27');
-  const nSiguen = confN - nCerradas;
-  const segRow = (id, label, color, hi) => {
-    const it = groupItems(PMO_GROUPS.find(g => g.id === id), '*');
-    const n = it.length, a = it.filter(x => x.plan === 'SI').length, b = n - a, p = pct(n);
-    return `<div class="f2-row${hi ? ' f2-hi' : ''}" onclick="openMacroDetail('${id}')" title="${label.replace(/<[^>]+>/g,'')} · Planeado 2025-2026: ${a} · Incorporado 2026: ${b}">
-      <span class="f2-name">${label}</span>
-      <div class="f2-bar">
-        ${a ? `<div class="f2-fill" style="width:${Math.max(a / confN * 100, 1.5)}%;background:var(--navy2)"></div>` : ''}
-        ${b ? `<div class="f2-fill" style="width:${Math.max(b / confN * 100, 1.5)}%;background:var(--naranja2)"></div>` : ''}
-      </div>
-      <b class="f2-n">${n}</b><i class="f2-p" style="color:${color}">${p}%</i>
-      <span class="f2-coh"><i class="cq cq-p"></i>${a}<i class="cq cq-i"></i>${b}</span>
-    </div>`;
-  };
-  document.getElementById('estadoCard').innerHTML = `
-    <div class="pv-title">1.1 · Detalle del Portafolio</div>
-    <div class="seg-total" onclick="openCompDetail('ALL')">
-      <b>${confN}</b> iniciativas del portafolio
-    </div>
-    <div class="coh-legend">
-      <span class="coh-item" onclick="openCompDetail('P')" title="Ver las planeadas 2025-2026"><i class="cq cq-p"></i><b>${cohP}</b> planeadas 2025-2026</span>
-      <span class="coh-item" onclick="openCompDetail('INC')" title="Ver las incorporadas 2026"><i class="cq cq-i"></i><b>${cohI}</b> incorporadas 2026</span>
-    </div>
-    <div class="f2">
-      <div class="f2-sec"><span>Cerradas a la fecha</span><em>${nCerradas} · ${pct(nCerradas)}%</em></div>
-      ${segRow('LIB', 'Liberados', 'var(--verde)')}
-      ${segRow('CER', 'Cerrados <small class="f2-small">(cancelados · sustituidos · por sustituir)</small>', '#55607A')}
-      ${segRow('P27', 'Planeación 2027 <small class="f2-small">(pasan a la planeación del siguiente año)</small>', '#495E7E')}
-      <div class="f2-div"><span>Siguen en el portafolio · ${nSiguen} · ${pct(nSiguen)}%</span></div>
-      ${segRow('PEN', 'Pendiente Def. de Negocio 2026', 'var(--naranja)')}
-      ${segRow('GES', 'En proceso (gestión)', 'var(--teal)', true)}
-    </div>
-    <div class="ges-grid" style="grid-template-columns:repeat(2,1fr)">
-      <div class="est-kpi" style="border-top-color:var(--amarillo)" onclick="openBucketDetail('*','Ventanilla TI')"><span class="ek-n">${vs[2]}</span><span class="ek-l">Ventanilla TI</span><span class="ek-s"><i class="cq cq-p"></i>${vs[0]}<i class="cq cq-i"></i>${vs[1]}</span></div>
-      <div class="est-kpi" style="border-top-color:var(--teal)" onclick="openBucketDetail('*','En proceso')"><span class="ek-n">${es[2]}</span><span class="ek-l">En proceso de ejecución<br>(Células de trabajo)</span><span class="ek-s"><i class="cq cq-p"></i>${es[0]}<i class="cq cq-i"></i>${es[1]}</span></div>
-    </div>`;
-
-  // 4 · Decisión de presupuesto
+  // 2.1 · Decisión de presupuesto — sin cambios
   const mot = {};
   LIBERAR.forEach(x => { const o = mot[x[1]] = mot[x[1]] || {n:0, m:0}; o.n++; o.m += x[3]; });
   const rows = MOTIVO_ORDEN.filter(k => mot[k]).map(k =>
@@ -1373,191 +1949,6 @@ function renderBloques() {
 
 function renderResumenPMO() {
   renderBloques();
-}
-
-function initPortafolio() {
-  renderResumenPMO();
-  renderDistribution();
-  const cats = unique(PORTAFOLIO_DATA.map(p => p.clasificacion).filter(Boolean));
-  opt('pfPortCat', cats);
-  const present = PORT_STATUS_ORDER.filter(s2 => PORTAFOLIO_DATA.some(p => p.estatus === s2));
-  opt('pfPortEstatus', present);
-  const prios = unique(PORTAFOLIO_DATA.map(p => p.prio)).sort((a, b) => {
-    const na = parseFloat(a), nb = parseFloat(b);
-    if (!isNaN(na) && !isNaN(nb)) return na - nb;
-    if (!isNaN(na)) return -1; if (!isNaN(nb)) return 1;
-    return a.localeCompare(b);
-  });
-  const selP = document.getElementById('pfPrio');
-  if (selP) selP.innerHTML = '<option value="">Todas las priorizaciones</option>' + prios.map(x => `<option>${x}</option>`).join('') + '<option value="__none__">Sin priorización</option>';
-  const selPO = document.getElementById('pfPO');
-  if (selPO) selPO.innerHTML = '<option value="">Todos los Product Owners</option>' + unique(PORTAFOLIO_DATA.map(p => p.po)).map(x => `<option>${x}</option>`).join('') + '<option value="__none__">Sin PO asignado</option>';
-  opt('pfEpic', unique(PORTAFOLIO_DATA.map(p => p.responsable)));
-  const h2 = document.getElementById('portCountHead');
-  if (h2) h2.textContent = PORTAFOLIO_DATA.length + ' iniciativas';
-  renderPortTable();
-}
-
-/* ══ CAPA 2 · DISTRIBUCIÓN + CAPA 3 · KANBAN EJECUTIVO ══ */
-let DIST_MODE = 'categoria';
-const DIST_OPEN = {};
-
-function setDistMode(m) {
-  DIST_MODE = m;
-  document.querySelectorAll('.dm-btn').forEach(b => b.classList.remove('active'));
-  const btn = document.getElementById('dm_' + m);
-  if (btn) btn.classList.add('active');
-  renderDistribution();
-}
-
-function toggleDistGroup(id, key) {
-  const el = document.getElementById(id);
-  if (!el) return;
-  el.classList.toggle('open');
-  DIST_OPEN[key] = el.classList.contains('open');
-}
-
-function iniCardHTML(p) {
-  const [bg, fg] = PORT_STATUS_COLORS[p.estatus] || ['var(--g100)','var(--g700)'];
-  const cc = catColor(p);
-  const planOk = p.plan === 'SI';
-  return `<div class="ini-card ini3" style="border-left-color:${cc}">
-    <div class="i3a">
-      <h4 class="ini-name">${p.iniciativa}</h4>
-      <div class="i3a-r">
-        <span class="ini2-treq" style="color:${cc};border-color:${cc}">${p.treq}</span>
-        <span class="epill" style="background:${bg};color:${fg}">${p.estatus}</span>
-        <span class="plan-tag ${planOk ? 'pt-si' : 'pt-no'}">${planOk ? '✓ Autorizado en planeación' : '✗ No autorizado en planeación'}</span>
-      </div>
-    </div>
-    <div class="i3b">
-      <div class="i3b-l">
-        <div class="i2f"><span class="im-l">Epic Owner</span><b class="im-v">${p.responsable || '—'}</b></div>
-        <div class="i2f"><span class="im-l">Product Owner</span><b class="im-v"${p.po ? '' : ' style="color:var(--amarillo)"'}>${p.po || 'Sin PO asignado'}</b></div>
-        <div class="i2f"><span class="im-l">Línea de acción</span><b class="im-v">${p.clasificacion || '—'}</b></div>
-      </div>
-      <div class="i3b-r">
-        <div class="i2f"><span class="im-l">Priorización</span><b class="im-v i3-big">${p.prio || '-'}</b></div>
-        <div class="i2f"><span class="im-l">Fecha entrega SOW</span>${p.sow ? `<b class="im-v sow-hl">${p.sow}</b>` : '<b class="im-v">-</b>'}</div>
-      </div>
-    </div>
-    <div class="i3c"><span class="im-l">Comentarios</span><div class="ini2-comtx i3c-empty">${p.nota || ''}</div></div>
-  </div>`;
-}
-
-function renderDistribution() {
-  const lg = document.getElementById('catLegend');
-  if (lg) lg.innerHTML = CAT_LEGEND.map(([c, l]) => `<span class="cat-leg-item"><i style="background:${c}"></i>${l}</span>`).join('');
-  const total = PORTAFOLIO_DATA.length;
-  const map = {};
-  if (DIST_MODE === 'categoria') {
-    PORTAFOLIO_DATA.forEach(p => { const k = p.clasificacion || 'Otros'; (map[k] = map[k] || []).push(p); });
-  } else {
-    PORTAFOLIO_DATA.forEach(p => { const k = p.estatus || 'Sin estatus'; (map[k] = map[k] || []).push(p); });
-  }
-  const groups = Object.entries(map).sort((a, b) => b[1].length - a[1].length);
-
-  document.getElementById('distGroups').innerHTML = groups.map(([name, items], i) => {
-    const id = 'dg_' + i;
-    const key = DIST_MODE + '|' + name;
-    const n = items.length, pct = Math.round(n / total * 100);
-    const sc = {};
-    items.forEach(p => { sc[p.estatus] = (sc[p.estatus] || 0) + 1; });
-    const CAT_SEGS = [
-      ['#1B355D', x => x.treq === 'Proyecto' && x.plan === 'SI', 'Proyectos autorizados en la planeación'],
-      ['#495E7E', x => x.treq === 'Proyecto' && x.plan !== 'SI', 'Nuevos proyectos 2026'],
-      ['#7DACE3', x => x.treq === 'Programa Lazos', 'Proyectos Lazos'],
-      ['var(--naranja)', x => x.treq === 'Regulatorio', 'Regulatorios'],
-      ['#A4AEBF', x => x.treq === 'Continuidad Operativa', 'Continuidad Operativa'],
-    ];
-    const segs = CAT_SEGS.map(([c, f, l]) => {
-      const k = items.filter(f).length;
-      return k ? `<div title="${l}: ${k}" style="width:${k / n * 100}%;background:${c}"></div>` : '';
-    }).join('');
-    let dom;
-    if (DIST_MODE === 'categoria') {
-      const top = Object.entries(sc).sort((a, b) => b[1] - a[1])[0];
-      dom = `Estatus predominante:<br><b>${top[0]}</b> (${Math.round(top[1] / n * 100)}%)`;
-    } else {
-      const cc = {};
-      items.forEach(p => { const k = p.clasificacion || 'Otros'; cc[k] = (cc[k] || 0) + 1; });
-      const top = Object.entries(cc).sort((a, b) => b[1] - a[1])[0];
-      dom = `Categoría predominante:<br><b>${top[0]}</b> (${Math.round(top[1] / n * 100)}%)`;
-    }
-    const open = DIST_OPEN[key] ? ' open' : '';
-    return `<div class="dist-group${open}" id="${id}">
-      <div class="dist-head" onclick="toggleDistGroup('${id}','${key.replace(/'/g, "\\'")}')">
-        <div><h3 class="dist-name">${name}</h3><span class="dist-count">${n} iniciativas · ${pct}% del portafolio · desplegar detalle</span></div>
-        <div class="dist-stack">${segs}</div>
-        <div class="dist-dom">${dom}</div>
-        <span class="acc-chevron">▾</span>
-      </div>
-      <div class="dist-body"><div class="ini-grid">${items.map(iniCardHTML).join('')}</div></div>
-    </div>`;
-  }).join('');
-}
-
-function renderPortTable() {
-  const cat = document.getElementById('pfPortCat').value;
-  const est = document.getElementById('pfPortEstatus').value;
-  const q   = safe(document.getElementById('portSearch').value).toLowerCase();
-  const prioF = document.getElementById('pfPrio') ? document.getElementById('pfPrio').value : '';
-  const poF   = document.getElementById('pfPO') ? document.getElementById('pfPO').value : '';
-  const epicF = document.getElementById('pfEpic') ? document.getElementById('pfEpic').value : '';
-  const planF = document.getElementById('pfPlan') ? document.getElementById('pfPlan').value : '';
-  const sortF = document.getElementById('pfSort') ? document.getElementById('pfSort').value : '';
-  let filtered = PORTAFOLIO_DATA.filter(p =>
-    (!cat || p.clasificacion === cat) &&
-    (!est || p.estatus === est) &&
-    (!prioF || (prioF === '__none__' ? !p.prio : p.prio === prioF)) &&
-    (!poF   || (poF === '__none__' ? !p.po : p.po === poF)) &&
-    (!epicF || p.responsable === epicF) &&
-    (!planF || (planF === 'SI' ? p.plan === 'SI' : p.plan !== 'SI')) &&
-    (!q   || [p.iniciativa, p.responsable, p.po||'', p.celula, p.clasificacion, p.subcategoria, p.nota||''].join(' ').toLowerCase().includes(q))
-  );
-  const sortPrio = (arr, dir) => [...arr].sort((a, b) => {
-    const na = parseFloat(a.prio), nb = parseFloat(b.prio);
-    const ka = isNaN(na) ? (a.prio ? 1 : 2) : 0, kb = isNaN(nb) ? (b.prio ? 1 : 2) : 0;
-    if (ka !== kb) return ka - kb;                      // numéricas primero, TBD después, sin priorización al final
-    if (ka === 0) return dir === 'asc' ? na - nb : nb - na;
-    return 0;
-  });
-  if (sortF) filtered = sortPrio(filtered, sortF);
-  else if (cat || est || prioF || poF || epicF || planF || q) filtered = sortPrio(filtered, 'desc'); // al filtrar: prioridad de mayor a menor
-  const bgC  = e => (PORT_STATUS_COLORS[e] || ['var(--g100)','var(--g700)'])[0];
-  const txtC = e => (PORT_STATUS_COLORS[e] || ['var(--g100)','var(--g700)'])[1];
-  document.getElementById('portTableBody').innerHTML = filtered.map(p => {
-    const hasNota  = p.nota && p.nota.trim();
-    const hasFecha = p.fecha_entrega && p.fecha_entrega !== 'TBD' && p.fecha_entrega !== 'TDB';
-    const hasTipo  = p.tipo_entregable && p.tipo_entregable !== 'TBD' && p.tipo_entregable !== 'TDB';
-    const hasSow  = p.sow && p.sow !== 'TBD';
-    const hasCand = p.candidato && p.candidato.trim();
-    const hasSug  = p.sugerencia && p.sugerencia.trim();
-    const flags = ` <span class="prio-chip${p.prio ? '' : ' pc-none'}">${p.prio ? 'Prio ' + p.prio : 'Sin prio.'}</span>`
-                + (p.tp === 'N' ? ' <span class="ini-cat" style="background:rgba(0,120,138,.12);color:var(--teal)">Nuevo</span>' : '')
-                + (p.tp === 'C' ? ' <span class="ini-cat" style="background:rgba(231,83,1,.10);color:var(--naranja)">Continuidad</span>' : '')
-                + (p.tp === 'R' ? ' <span class="ini-cat" style="background:rgba(0,120,138,.12);color:var(--teal)">Nvo. Regulatorio</span>' : '')
-                + '';
-    const metaRow = (hasNota || hasFecha || hasTipo || hasSow || hasCand || hasSug) ? `
-      <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:5px;align-items:flex-start">
-        <span style="font-size:9.5px;color:var(--g500);font-weight:700;white-space:nowrap">${p.treq}</span>
-        <span style="font-size:9.5px;color:${p.po ? 'var(--g500)' : 'var(--amarillo)'};font-weight:700;white-space:nowrap">PO: ${p.po || 'Sin PO asignado'}</span>
-        ${hasSow   ? `<span class="sow-hl" style="font-size:9.5px;font-weight:700;white-space:nowrap">🤝 Entrega SOW: ${p.sow}</span>` : ''}
-        ${hasCand  ? `<span style="font-size:9.5px;color:var(--g500);font-weight:700">💰 ${p.candidato}</span>` : ''}
-        ${hasSug   ? `<span style="font-size:10px;color:var(--teal);font-weight:600;line-height:1.4">💡 ${p.sugerencia.replace(/\n/g,' · ')}</span>` : ''}
-        ${hasNota  ? `<span style="font-size:10px;color:var(--g700);font-style:italic;line-height:1.4">💬 ${p.nota}</span>` : ''}
-      </div>` : '';
-    return `<div class="port-table-row" style="flex-direction:column;align-items:flex-start;gap:4px">
-      <div style="display:grid;grid-template-columns:1fr 160px 130px 110px;gap:8px;width:100%;align-items:center">
-        <span style="font-weight:600;color:var(--navy)">${p.iniciativa}${flags}</span>
-        <span style="font-size:11px;color:var(--g500)">${p.clasificacion}</span>
-        <span style="font-size:11px">${p.responsable}</span>
-        <span><span class="epill" style="background:${bgC(p.estatus)};color:${txtC(p.estatus)}">${p.estatus}</span></span>
-      </div>
-      ${metaRow}
-    </div>`;
-  }).join('') || '<div style="padding:18px;text-align:center;color:var(--g500)">Sin resultados</div>';
-  document.getElementById('portCount').textContent = `${filtered.length} de ${PORTAFOLIO_DATA.length} iniciativas`;
 }
 
 /* ===== PROYECTOS ===== */
